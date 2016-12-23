@@ -19,7 +19,7 @@
 "tags": "",
 "keywords": "88-musaics, P4Tuning, jekyll",
 "url": "doc_howto_participate.html",
-"summary": "You can publish your project on Github Pages, which is a free web hosting service provided by Github. All you need is to put your content into a Github repo branch called gh-pages and make this your default branch in your repo. With a Jekyll site, you just commit your entire project into the gh-pages branch and Github Pages will build the site for you."
+"summary": "You can submit your work from your fork of Github P4Tuning.org"
 }
 ,
 
@@ -110,28 +110,6 @@
 "keywords": "news, blog, updates, release notes, announcements",
 "url": "news_archive.html",
 "summary": ""
-}
-,
-
-
-
-{
-"title": "Product 2",
-"tags": "",
-"keywords": "mydoc",
-"url": "p2_landing_page.html",
-"summary": ""
-}
-,
-
-
-
-{
-"title": "Musaic Topic",
-"tags": "",
-"keywords": "musaic 88musaics",
-"url": "musaic_index.html",
-"summary": "This is just a sample topic..."
 }
 ,
 
