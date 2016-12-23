@@ -1,0 +1,115 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Musaic
+  product: Musaic
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /musaic_overview.html
+      output: web
+
+  - title: UI of musical instrument
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /musaic_overview_generators.html
+      output: web
+
+    - title: UI instrument in dimension 1
+      url: /musaic_repr_dim1.html
+      output: web, pdf
+
+    - title: UI instrument in dimension 2
+      url: /musaic_repr_dim2.html
+      output: web, pdf
+
+  - title: 4096 PCS
+    output: web, pdf
+    folderitems:
+
+    - title: Octave equivalence and Repr
+      url: /musaic_octave_equivalence.html
+      output: web, pdf
+
+    - title: PCS enumeration
+      url: /musaic_4096.html
+      output: web, pdf
+
+    - title: PCS representation (Qn)
+      url: /musaic_repr_4096.html
+      output: web, pdf
+
+  - title: 4096 -> 352 IS
+    output: web, pdf
+    folderitems:
+
+    - title: Transpositon equivalence (352 IS)
+      url: /musaic_transmposition_equivalence.html
+      output: web, pdf
+
+    - title: Choice of representative element
+      url: /musaic_choice_repr.html
+      output: web, pdf
+
+  - title: 352 -> 180 Motifs
+    output: web, pdf
+    folderitems:
+    - title: Overview
+      url: /musaic_motif_overview.html
+      output: web
+
+    - title: Motif enumeration (180)
+      url: /musaic_motif_enumeration.html
+      output: web, pdf
+
+    - title: Motif representation
+      url: /musaic_motif_repr.html
+      output: web, pdf
+
+  - title: 180 -> 88 Musaics
+    output: web, pdf
+    folderitems:
+    - title: 4 operations on Motif
+      url: /musaic_motif_operations.html
+      output: web
+
+    - title: Musaic, a four-faced object
+      url: /musaic_four_faces.html
+      output: web
+
+    - title: Musaic enumeration (88)
+      url: /musaic_enumeration.html
+      output: web, pdf
+
+    - title: 88-Musaics representation
+      url: /musaic_repr.html
+      output: web, pdf
+  - title: Mathematic &amp; Musaics
+    output: web, pdf
+    folderitems:
+    - title: Overview
+      url: /musaic_math_overview.html
+      output: web
+    - title: Logics (Algebra, Set Theory, Arithmetic)
+      url: /musaic_math_logics.html
+      output: web

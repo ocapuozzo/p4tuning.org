@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <description>88-Musaics, the hidden treasure of the twelve-tone equal temperamentThe hidden treasure of the twelve-tone equal temperament</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 23 Dec 2016 19:11:04 +0100</pubDate>
+        <lastBuildDate>Fri, 23 Dec 2016 19:11:04 +0100</lastBuildDate>
+        <generator>Jekyll v3.3.1</generator>
+        
+        <item>
+            <title>Welcome to P4Tuning.org !</title>
+            <description>&lt;p&gt;First news welcome !&lt;/p&gt;
+
+</description>
+            <pubDate>Wed, 21 Dec 2016 00:00:00 +0100</pubDate>
+            <link>http://localhost:4000/firstnews.html</link>
+            <guid isPermaLink="true">http://localhost:4000/firstnews.html</guid>
+            
+            <category>news</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Sample post</title>
+            <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries&lt;/p&gt;
+
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 26 Feb 2016 00:00:00 +0100</pubDate>
+            <link>http://localhost:4000/samplepost.html</link>
+            <guid isPermaLink="true">http://localhost:4000/samplepost.html</guid>
+            
+            <category>news</category>
+            
+            <category>getting_started</category>
+            
+            
+        </item>
+        
+    </channel>
+</rss>

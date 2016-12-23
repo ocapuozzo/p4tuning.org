@@ -1,0 +1,195 @@
+[
+
+
+
+
+{
+"title": "About author(s)",
+"tags": "",
+"keywords": "88-musaics, P4Tuning, jekyll",
+"url": "doc_about.html",
+"summary": "Initial authors and, I hope, community participation."
+}
+,
+
+
+
+{
+"title": "About author(s)",
+"tags": "",
+"keywords": "88-musaics, P4Tuning, jekyll",
+"url": "doc_howto_participate.html",
+"summary": "You can publish your project on Github Pages, which is a free web hosting service provided by Github. All you need is to put your content into a Github repo branch called gh-pages and make this your default branch in your repo. With a Jekyll site, you just commit your entire project into the gh-pages branch and Github Pages will build the site for you."
+}
+,
+
+
+
+
+
+{
+"title": "Welcome !",
+"tags": "",
+"keywords": "P4Tuning",
+"url": "index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "88-Musaics",
+"tags": "",
+"keywords": "musaic 88-Musaics",
+"url": "musaic_overview.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Musaic Topic",
+"tags": "",
+"keywords": "musaic 88musaics",
+"url": "musaic_overview_generators.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "UI musical instrument in dimension 1",
+"tags": "",
+"keywords": "musaic 88musaics",
+"url": "musaic_repr_dim1.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "UI musical instrument in dimension 2",
+"tags": "",
+"keywords": "musaic 88musaics",
+"url": "musaic_repr_dim2.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Scroll layout",
+"tags": "special_layouts",
+"keywords": "json, scrolling, scrollto, jquery plugin",
+"url": "jsmydoc_scroll.html",
+"summary": "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
+}
+,
+
+
+
+{
+"title": "News",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "news.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "News Archive",
+"tags": "",
+"keywords": "news, blog, updates, release notes, announcements",
+"url": "news_archive.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Product 2",
+"tags": "",
+"keywords": "mydoc",
+"url": "p2_landing_page.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Musaic Topic",
+"tags": "",
+"keywords": "musaic 88musaics",
+"url": "musaic_index.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"title": "",
+"tags": "",
+"keywords": "",
+"url": "feed.xslt.xml",
+"summary": ""
+}
+,
+
+
+
+
+
+{
+"title": "Welcome to P4Tuning.org !",
+"tags": "news",
+"keywords": "",
+"url": "/firstnews.html",
+"summary": ""
+}
+,
+
+
+{
+"title": "Sample post",
+"tags": "newsgetting_started",
+"keywords": "",
+"url": "/samplepost.html",
+"summary": "This is some summary frontmatter for my sample post."
+}
+
+
+
+]

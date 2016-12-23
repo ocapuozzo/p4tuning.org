@@ -1,0 +1,18 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: News
+  product: News
+  version: 1.0
+  folders:
+
+  - title: News
+    output: web
+    folderitems:
+        
+    - title: Currents
+      url: /news.html
+      output: web
+    - title: Archives
+      url: /news_archive.html
+      output: web

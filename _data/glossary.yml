@@ -1,0 +1,15 @@
+jekyll_platform: "Jekyll is a static site generator that builds sites using most modern web technologies."
+
+pitch: "Specific frequency of a 'sound'. For example, C4, C3 or A4 are three distincts pitches"
+
+PC (pitch class): "set pitches related to each other by octave, enharmonic equivalence, or both. [Pitch Class](https://en.wikipedia.org/wiki/Pitch_class). For example, C (or 0) is Pitch-Class of all pitches Cx"
+
+PCS: "Set of pitch-class as element of powerset of {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11} (set of all PC)"
+
+IS (Intervallic Structure): "Set of intervals that characterizes a PCS. For exampl CMaj {0, 4, 7} is defined by IS: (4,3,5) - so major 3rd, minor 3rd and perfect 4th - as all xMaj with 3 PC. There are 352 distinct IS in twelve-tone theory."
+
+musx: where x from 1 to 88, identify one of 88 musaics. For example, *mus1* is empty-all musaic
+
+motif : set of two PCS, mutually complementary
+
+face : one on the four musaic's motifs (musaic's views)

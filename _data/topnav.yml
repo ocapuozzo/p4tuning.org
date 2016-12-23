@@ -1,0 +1,32 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: 88-Musaics
+      url: /musaic_overview.html
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: P4Tuning
+      folderitems:
+        - title: P4Tuning concepts
+          url: /p4tuning_concepts_landing_page.html
+        - title: P4Tuning lessons
+          url: /p4tuning_lessons_landing_page.html
+    - title: Editor Resources
+      folderitems:
+        - title: Github Repo
+          external_url: https://github.com/ocapuozzo/musaicbook
+        - title: Jekyll documentation
+          external_url: http://jekyllrb.com/docs/home/
+        - title: Documentation Theme for Jekyll
+          external_url: http://idratherbewriting.com/documentation-theme-jekyll/
+    - title: Others
+      folderitems:
+        - title: News
+          url: /news
+        - title: About
+          url: /doc_about.html

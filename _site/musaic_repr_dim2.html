@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This is just a sample topic...">
+<meta name="keywords" content=" musaic 88musaics">
+<title>UI musical instrument in dimension 2 | P4Tuning</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<link rel="stylesheet" href="css/lavish-bootstrap.css">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/theme-blue.css">
+<link rel="stylesheet" href="css/musaic.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico?v2">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">&nbsp; <img src="images/p4tuning-logo-icon.png" alt="logo" />&nbsp;<span class="projectTitle"> P4Tuning.org</span></a>
+            <!--a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> P4Tuning.org</span></a -->
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="musaic_overview.html">88-Musaics</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">P4Tuning<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="p4tuning_concepts_landing_page.html">P4Tuning concepts</a></li>
+                        
+                        
+                        
+                        <li><a href="p4tuning_lessons_landing_page.html">P4Tuning lessons</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Editor Resources<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://github.com/ocapuozzo/musaicbook" target="_blank">Github Repo</a></li>
+                        
+                        
+                        
+                        <li><a href="http://jekyllrb.com/docs/home/" target="_blank">Jekyll documentation</a></li>
+                        
+                        
+                        
+                        <li><a href="http://idratherbewriting.com/documentation-theme-jekyll/" target="_blank">Documentation Theme for Jekyll</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="news">News</a></li>
+                        
+                        
+                        
+                        <li><a href="doc_about.html">About</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:olivier.capuozzo@gmail.com?subject=P4Tuning.org feedback&body=I have some feedback about the UI musical instrument in dimension 2 page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+<li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="UI musical instrument in dimension 2">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+    
+    
+    <!-- Sidebar Column -->
+    <div class="col-md-3">
+      
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle">Musaic 1.0</li>
+    
+    
+    
+        
+    
+    <li>
+        <a href="#">Introduction</a>
+        <ul>
+            
+            
+            
+            <li><a href="musaic_overview.html">Overview</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">UI of musical instrument</a>
+        <ul>
+            
+            
+            
+            <li><a href="musaic_overview_generators.html">Overview</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_repr_dim1.html">UI instrument in dimension 1</a></li>
+            
+            
+            
+            
+            
+            
+            <li class="active"><a href="musaic_repr_dim2.html">UI instrument in dimension 2</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">4096 PCS</a>
+        <ul>
+            
+            
+            
+            <li><a href="musaic_octave_equivalence.html">Octave equivalence and Repr</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_4096.html">PCS enumeration</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_repr_4096.html">PCS representation (Qn)</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">4096 -> 352 IS</a>
+        <ul>
+            
+            
+            
+            <li><a href="musaic_transmposition_equivalence.html">Transpositon equivalence (352 IS)</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_choice_repr.html">Choice of representative element</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">352 -> 180 Motifs</a>
+        <ul>
+            
+            
+            
+            <li><a href="musaic_motif_overview.html">Overview</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_motif_enumeration.html">Motif enumeration (180)</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_motif_repr.html">Motif representation</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">180 -> 88 Musaics</a>
+        <ul>
+            
+            
+            
+            <li><a href="musaic_motif_operations.html">4 operations on Motif</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_four_faces.html">Musaic, a four-faced object</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_enumeration.html">Musaic enumeration (88)</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_repr.html">88-Musaics representation</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+    
+    <li>
+        <a href="#">Mathematic &amp; Musaics</a>
+        <ul>
+            
+            
+            
+            <li><a href="musaic_math_overview.html">Overview</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="musaic_math_logics.html">Logics (Algebra, Set Theory, Arithmetic)</a></li>
+            
+            
+            
+            
+        </ul>
+        
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+    </li>
+</ul>
+</div>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+     <!-- Content Column -->
+     <div class="col-md-9">
+    
+
+        <div class="post-header">
+   <h1 class="post-title-main">UI musical instrument in dimension 2</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">This is just a sample topic...</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+  <h2 id="matrix-instrument">Matrix instrument</h2>
+
+<p>A matrix instrument is instance of a dual interval space (DIS), as two-dimentional array of pitch in which each dimension corresponds to an unique (non-zero) interval. For definition of DIS, see <a href="http://mts.oxfordjournals.org/content/25/1/35.abstract" target="_blank">Dual Interval Space in Twentieth-Century Music, Stephen C.Brown</a>.</p>
+
+<h2 id="case-of-strings-instruments">Case of strings instruments</h2>
+
+<p>Strings instruments are always tuning with interval 1 (to play along the string) and an other that varies. For example, violin is (1, 7), and it is said <em>tuned in fifths</em> (fifth is composed of 7 semitones), bass (1, 5) and it is said <em>tuned in fourths</em>. Traditionnal violin has 4 strings, bass has 3, 4 or 5 strings, and <strong>same</strong> interval is kept between the neighboring strings. This is referred to as <strong>regular tuning</strong>.</p>
+
+<p>Of course there is the guitar tuned in fourth (and this may be why you read these lines), but also instruments in regular tuning, as (1,4) major 3rd, for example.</p>
+
+<h2 id="remarkable-tunings">Remarkable tunings</h2>
+
+<p>It would seem (<em>but it remains to prove</em>) that the choose a DIS with 2 generator of 12 (one for each dimension of the matrix), gives the latter interesting properties.</p>
+
+<p>The 4 generators of 12 {<strong>1</strong>, <strong>5</strong>, <strong>7</strong>, <strong>11</strong>}  – or more conceptualy {1, 5, n-5, n-1 } with n=12, can be supported by 2 axes and so 4 angulars sectors : 1-O-5, 7-O-1, 7-O-11 and 11-O-5, as showing with figure below :</p>
+
+<figure><img class="docimage" src="images/musaic/snapshotEulerAxeGimp.png" alt="eulerAxe" /><figcaption>AxesGenerator12</figcaption></figure>
+
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b> Thereafter we will retain sector <strong>1-O-5</strong>, which corresponds to perfect fourth guitar tuning, but all that will be studied is transposable, true, to the 3 other sectors (In particular string instruments tuning in <em>fifths</em> - 1-O-7).</div>
+
+<p>A angular sector forms a two-dimensional array (DIS), Below, we choose as origin 0, elements are pitches in <a href="https://en.wikipedia.org/wiki/Scientific_pitch_notation" target="_blank">scientific pitch notation</a>.</p>
+
+<figure><img class="docimage" src="images/musaic/grilleEmptyETC.png" alt="matrix (1,5)" /><figcaption>matrix (1,5)</figcaption></figure>
+
+<p>This space can be considered as a <em>musical keyboard</em>. Like keyboard of piano, let us emphasize the notes of diatonic scale.</p>
+
+<figure><img class="docimage" src="images/musaic/grilleDiatonicETC.png" alt="diatonic matrix (1,5)" /><figcaption>diatonic matrix (1,5)</figcaption></figure>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+    
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2016 P4Tuning.org. All rights reserved. <br />
+ Site last generated: Dec 23, 2016 <br />
+<p><img src="images/company_logo.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+
+</body>
+
+</html>
