@@ -37,7 +37,7 @@ Historically, the term "harmonic mosaic" had been used.
 
 ### Why « 88 » ?
 
-12 equal temperament can be « reduced », if we look what happens inside an octave, to 88 « structures ».
+12 equal temperament can be "reduced", if we accept octave identification , to 88 "harmonic structures".
 
 ### What are musaics ?
 
@@ -56,7 +56,7 @@ In addition to their dual nature - which alone opens up a vast area for cognitiv
 * Allows - by virtually immediate recognition of patterns - identification of harmonic structures
 * Facilitates the understanding of certain harmonic properties, allowing an original didactic
 * Is a tool at the service of the Musical Set Theory : see [Set Theory Complete](http://repmus.ircam.fr/_media/mamux/papers/andreatta-2003-settheorycomplet.pdf) and [Music Set Theory ](https://en.wikipedia.org/wiki/Set_theory_%28music%29)
-* Is an illustration of the [Group Theory](https://en.wikipedia.org/wiki/Group_theory)
+* Is an illustration of the [Group Theory](https://en.wikipedia.org/wiki/Group_theory){:target="_blank"}
 
 ### And art in all this ?
 
