@@ -19,7 +19,7 @@ topnav_dropdowns:
     - title: Editor Resources
       folderitems:
         - title: Github Repo
-          external_url: https://github.com/ocapuozzo/musaicbook
+          external_url: https://github.com/ocapuozzo/p4tuning.org
         - title: Jekyll documentation
           external_url: http://jekyllrb.com/docs/home/
         - title: Documentation Theme for Jekyll
