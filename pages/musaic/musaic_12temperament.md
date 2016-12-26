@@ -1,18 +1,35 @@
 ---
-title: Musaic Topic
+title: Twelve tone equal temperament
 keywords: musaic 88musaics
 summary: "This is just a sample topic..."
 sidebar: musaic_sidebar
-permalink: musaic_overview_generators.html
+permalink: musaic_12temperament.html
 folder: musaic
 ---
 
 
+## Introduction
+
+This study falls within the framework of the 12 equal temperament (which divides the octave into twelve "equal" parts).
+
+
 ## Enharmonic equivalence
 
-Equivalence enharmonic is a pragmatic axiom that unifies close pitches such as C4, B3#, D4bb ...
+Enharmonic equivalence is a pragmatic axiom that unifies close pitches such as C4, B3#, D4bb ...
 
-It is not appropriate here to discuss the merits of 12 equal temperament, but but we admit that the ear is active and knows how to grasp the good harmonics to compensate for the lack of precision inherent in this simplification.
+It is on this principle that, today, many user interfaces (UI) of musical instrument are designed (keyboard piano, guitar frets, ...).
+
+
+## Octave equivalence
+
+*Octave equivalence* is manifested by the fact we spell different pitches by the *same* name, whatever this frequency, on condition that are on octave rapport.
+
+For example, there are different sounds such as C4, C5, C6, but only one equivalence class named C.
+
+  * C0, C5, ..., Cn are pitches
+  * C is Pitch Class in *Musical Set Theory* terminology
+
+It is well known by the musician for the notation of chords: CMaj7 designates all the chords based on a structure (4, 3, 3, 2) ie 3rd maj, fifth right and seventh minor with a Cx as root.
 
 
 ## Generators of 12

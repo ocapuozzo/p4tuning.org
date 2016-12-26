@@ -37,7 +37,7 @@ Historically, the term "harmonic mosaic" had been used.
 
 ### Why « 88 » ?
 
-12 equal temperament can be "reduced", if we accept octave identification , to 88 "harmonic structures".
+12 equal temperament can be "reduced", if we accept octave identification, to 88 "harmonic structures".
 
 ### What are musaics ?
 
@@ -62,7 +62,8 @@ In addition to their dual nature - which alone opens up a vast area for cognitiv
 
 The trellis (metallic structure) is not the fruit (living nature that grows on it). Needless to say, the very perfect theoretical knowledge of an art, whatever it may be, does not replace its practice, which is often a way of going beyond this knowledge: especially in art, rules and structures are made for Be exceeded
 
-{% include image.html file='treillis.png'  alt='trellis is not fruit' caption='trellis is not fruit' %}
+{% include image.html file='treillis.png'  alt='trellis is not fruit' caption='trellis is not fruit<br/> (Garden : Chaumont-sur-Loire
+47.478, 1.181)' %}
 
 
 {% include links.html %}

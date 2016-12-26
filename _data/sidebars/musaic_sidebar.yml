@@ -27,13 +27,20 @@ entries:
       url: /musaic_overview.html
       output: web
 
+  - title: 12-ET
+    output: web, pdf
+    folderitems:
+    - title: 12 equal temperament
+      url: /musaic_12temperament.html
+      output: web
+    - title: PCS represenation
+      url: /musaic_12representation.html
+      output: web
+
+
   - title: UI of musical instrument
     output: web, pdf
     folderitems:
-
-    - title: Overview
-      url: /musaic_overview_generators.html
-      output: web
 
     - title: UI instrument in dimension 1
       url: /musaic_repr_dim1.html

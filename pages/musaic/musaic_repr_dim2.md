@@ -21,7 +21,7 @@ Of course there is the guitar tuned in fourth (and this may be why you read thes
 
 ## Remarkable tunings
 
-It would seem (*but it remains to prove*) that the choose a DIS with 2 generator of 12 (one for each dimension of the matrix), gives the latter interesting properties.
+It would seem (*but it remains to prove*) that the choose a DIS with 2 generators of 12 (one for each dimension of the matrix), gives the latter interesting properties.
 
 The 4 generators of 12 {**1**, **5**, **7**, **11**}  -- or more conceptualy {1, 5, n-5, n-1 } with n=12, can be supported by 2 axes and so 4 angulars sectors : 1-O-5, 7-O-1, 7-O-11 and 11-O-5, as showing with figure below :
 
@@ -35,7 +35,20 @@ A angular sector forms a two-dimensional array (DIS), Below, we choose as origin
 
 This space can be considered as a *musical keyboard*. Like keyboard of piano, let us emphasize the notes of diatonic scale.
 
-{% include image.html file='musaic/grilleDiatonicETC.png' alt='diatonic matrix (1,5)' caption='diatonic matrix (1,5)' %}
+{% include image.html file='musaic/grilleDiatonicETC.png' alt='C-diatonic matrix (1,5)' caption='C-diatonic matrix (1,5)' %}
 
+Let's take a look at some others diatonic tonalities :
+
+{% include image.html file='musaic/cdiatonic.png' alt='C-diatonic matrix (1,5)' caption='C-diatonic matrix (1,5)' %}
+
+{% include image.html file='musaic/csharpdiatonic.png' alt='C#-diatonic matrix (1,5)' caption='C#-diatonic matrix (1,5)' %}
+
+{% include image.html file='musaic/fdiatonic.png' alt='F-diatonic matrix (1,5)' caption='F-diatonic matrix (1,5)' %}
+
+{% include image.html file='musaic/fdiatonic-01.png' alt='F-diatonic Pitch Class  matrix (1,5)' caption='F-diatonic Pitch Class matrix (1,5)' %}
+
+
+Lorem blabla Lorem blabla Lorem blabla Lorem blabla Lorem blabla Lorem blabla Lorem blabla 
+Lorem blabla Lorem blabla Lorem blabla Lorem blabla Lorem blabla Lorem blabla Lorem blabla Lorem blabla 
 
 {% include links.html %}
