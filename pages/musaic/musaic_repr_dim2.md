@@ -39,6 +39,8 @@ This space can be considered as a *musical keyboard*. Like keyboard of piano, le
 
 {% include image.html file='musaic/grilleDiatonicETC.png' alt='C-diatonic matrix (1,5)' caption='C-diatonic matrix DIS(1,5)' %}
 
+## Diatonic shape in DIS(1,5)
+
 Let's take a look at some others diatonic tonalities :
 
 {% include image.html file='musaic/cdiatonic.png' alt='C-diatonic matrix (1,5)' caption='C-diatonic DIS(1,5)' %}
