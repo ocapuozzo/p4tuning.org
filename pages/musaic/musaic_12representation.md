@@ -43,4 +43,14 @@ Example of circles with labels :
 As you can see, the circular representation, much more than text, makes it possible to put forward **symmetries** and **characteristic structures**, some of which are easily detectable (such as regular polygons)
 
 
+## References and Co
+
+
+*  [Make yourself a chromatic circle](http://solomonsmusic.net/clock.htm){:target="_blank"}
+
+*  Constellation vs Polygon : [another approach to form in a chromatic circle](https://en.wikipedia.org/wiki/Chromatic_circle){:target="_blank"}
+
+*  As early as 1679, design [circle 7 step](https://en.wikipedia.org/wiki/Circle_of_fifths){:target="_blank"}
+
+
 {% include links.html %}

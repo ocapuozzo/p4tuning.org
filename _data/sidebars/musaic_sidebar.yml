@@ -42,11 +42,11 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: UI instrument in dimension 1
+    - title: UI instrument in 1-dimension
       url: /musaic_repr_dim1.html
       output: web, pdf
 
-    - title: UI instrument in dimension 2
+    - title: UI instrument in 2-dimension
       url: /musaic_repr_dim2.html
       output: web, pdf
 
@@ -54,8 +54,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Octave equivalence and Repr
-      url: /musaic_octave_equivalence.html
+    - title: Understanding the enumeration 
+      url: /musaic_set3_enumeration.html
       output: web, pdf
 
     - title: PCS enumeration
@@ -81,7 +81,7 @@ entries:
   - title: 352 -> 180 Motifs
     output: web, pdf
     folderitems:
-    - title: Overview
+    - title: Motif definition
       url: /musaic_motif_overview.html
       output: web
 
@@ -96,7 +96,7 @@ entries:
   - title: 180 -> 88 Musaics
     output: web, pdf
     folderitems:
-    - title: 4 operations on Motif
+    - title: 4 operations on one Motif
       url: /musaic_motif_operations.html
       output: web
 
@@ -111,6 +111,7 @@ entries:
     - title: 88-Musaics representation
       url: /musaic_repr.html
       output: web, pdf
+      
   - title: Mathematic &amp; Musaics
     output: web, pdf
     folderitems:

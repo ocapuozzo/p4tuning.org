@@ -10,7 +10,9 @@ folder: musaic
 
 ## Introduction
 
-This study falls within the framework of the 12 equal temperament (which divides the octave into twelve "equal" parts).
+This study falls within the simplified framework of the [12 equal temperament](https://en.wikipedia.org/wiki/Equal_temperament) (which divides the octave into twelve "equal" parts)
+
+Nothing new, is the case of the main musical instruments with prepared notes (fretted instruments, piano, synthesizer, ...)
 
 
 ## Enharmonic equivalence
@@ -46,5 +48,17 @@ Chromatic scale can be generated in 4 ways (4 integers where are prime form with
     * Conjugated with the first (step 1),  case of string instruments tuning in firths (mandolin, violin, cello, ...)
   - step **11** : C0, B0, A#1, A2, G#3, G4, F#5, F6, E7, D#8, D9, C#10, C11, B11, etc.   
 
+
+## P vs PC vs PCS
+
+
+  * Pitch refers to height of sound, frequency (example : `A4`)
+
+  * Pitch Class (**PC**) refers to height class, octave equivalence is applied (example : `A`)
+
+  * Pitch Class Set (**PCS**) refers to a set of heights classes, without duplicate element (example : `{0, 3, 7}`)
+
+<br/>
+<a href="musaic_12representation.html" type="button">Next (representation) ></a>
 
 {% include links.html %}
