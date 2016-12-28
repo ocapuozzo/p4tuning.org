@@ -27,10 +27,10 @@ entries:
       url: /musaic_overview.html
       output: web
 
-  - title: 12-ET
+  - title: 12 Equal Temperament
     output: web, pdf
     folderitems:
-    - title: 12 equal temperament
+    - title: Introduction
       url: /musaic_12temperament.html
       output: web
     - title: PCS represenation

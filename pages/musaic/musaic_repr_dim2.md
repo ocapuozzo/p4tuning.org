@@ -33,23 +33,23 @@ A angular sector forms a two-dimensional array (DIS), Below, we choose as origin
 
 
 {% include image.html file='musaic/grilleCreuseVide.png'  alt='matrix without labels (1,5)' caption='matrix DIS(1,5) without labels ' %}
-{% include image.html file='musaic/grilleEmptyETC.png'  alt='matrix (1,5)' caption='matrix (1,5) as pavement' %}
+{% include image.html file='musaic/grilleEmptyETC.png'  alt='DIS(1,5)' caption='DIS(1,5) as pavement<br/>(with unison axe on A3)' %}
 
 This space can be considered as a *musical keyboard*. Like keyboard of piano, let us emphasize the notes of diatonic scale.
 
-{% include image.html file='musaic/grilleDiatonicETC.png' alt='C-diatonic matrix (1,5)' caption='C-diatonic matrix DIS(1,5)' %}
+{% include image.html file='musaic/grilleDiatonicETC.png' alt='C-diatonic DIS(1,5)' caption='C-diatonic DIS(1,5)<br/>{C, D, E, F, G, A, B}' %}
 
 ## Diatonic shape in DIS(1,5)
 
 Let's take a look at some others diatonic tonalities :
 
-{% include image.html file='musaic/cdiatonic.png' alt='C-diatonic matrix (1,5)' caption='C-diatonic DIS(1,5)' %}
+{% include image.html file='musaic/cdiatonic.png' alt='C-diatonic DIS(1,5)' caption='C-diatonic DIS(1,5)<br/>{C, D, E, F, G, A, B}' %}
 
-{% include image.html file='musaic/csharpdiatonic.png' alt='C#-diatonic matrix (1,5)' caption='C#-diatonic DIS(1,5)' %}
+{% include image.html file='musaic/csharpdiatonic.png' alt='C#-diatonic DIS(1,5)' caption='C#-diatonic DIS(1,5)<br/>{C#, D#, E#, F#, G#, A#, B#}' %}
 
-{% include image.html file='musaic/fdiatonic.png' alt='F-diatonic matrix (1,5)' caption='F-diatonic DIS(1,5)' %}
+{% include image.html file='musaic/fdiatonic.png' alt='F-diatonic DIS(1,5)' caption='F-diatonic DIS(1,5)<br/>{C, D, E, F, G, A, Bb}' %}
 
-{% include image.html file='musaic/fdiatonic-01.png' alt='F-diatonic Pitch Class  matrix (1,5)' caption='F-diatonic Pitch Class matrix (1,5)' %}
+{% include image.html file='musaic/fdiatonic-01.png' alt='F-diatonic Pitch Class  DIS(1,5)' caption='F-diatonic Pitch Class DIS(1,5)<br/>{0, 2, 4, 5, 7, 9, 10}' %}
 
 As you can see, in the latest figure, the PCS notation allows a more aerated grid. 
 
@@ -66,12 +66,12 @@ Would you recognize the diatonic forms ? :
 {% include image.html file='musaic/exo1-5_Musaique_Matrix.png' alt=' ? ' caption='5' %}
 {% include image.html file='musaic/exo1-6_Musaique_Matrix.png' alt=' ? ' caption='6' %}
 
-... We think you did. There are four : 1, 2, 3 and 6. The drawing you recognized is as follows:
+... We think you did. There are four : 1, 2, 3 and 6. The drawing you recognized is as follows (central figure):
 
-{% include image.html file='musaic/exo1_sameShapeMusaique_Matrix.png' alt='diatonic form' caption='Diatonic form in DIS(1,5)' %}
-{% include image.html file='musaic/exo1_sameCircleShapMusaique_Matrix.png' alt='diatonic circle form' caption='12 Diatonic scales in circle' %}
+{% include image.html file='musaic/exo1_sameShapeMusaique_Matrix.png' alt='diatonic form' caption='Diatonic form in DIS(1,5)<br/>(12 transpositions)' %}
+{% include image.html file='musaic/exo1_sameCircleShapMusaique_Matrix.png' alt='diatonic circle form' caption='12 Diatonic scales in circle<br/>(12 transpositions)' %}
 
-So, diatonic shape are this type in DIS(1,5):
+So, diatonic shape in DIS(1,5) is :
 {% include image.html file='musaic/clip_0_2_4_5_7_9_10_Musaique_Matrix.png' alt='diatonic form' caption='Diatonic form in DIS(1,5)' %}
 
 **But how many "type of shape" are they ?**

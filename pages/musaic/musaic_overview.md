@@ -7,7 +7,7 @@ permalink: musaic_overview.html
 folder: musaic
 ---
 
-### Which scope is ?
+### Which scope ?
 
 The interest in the 88 musaics places us at the intersection of several disciplines: harmony, mathematics, didactics, instrumental play (here in particular, but not only, for the practice of harmony on the guitar tuned in fourths)
 
