@@ -9,17 +9,18 @@ folder: musaic
 
 ### Which scope ?
 
-The interest in the 88 musaics places us at the intersection of several disciplines: harmony, mathematics, didactics, instrumental play (here in particular, but not only, for the practice of harmony on the guitar tuned in fourths)
+The 88 musaics are at the intersection of several disciplines : music, harmony, mathematics, didactics, instrumental play (in particular for the guitar tuned in fourths « P4 tunning » but not only)
 
-### What are the prerequisites ?
+### Prerequisites ?
 
-An elementary knowledge of harmony is preferable.
+An elementary knowledge of harmony is recommanded.
 
 The many schemas (and future animations) greatly facilitate access to concepts that usually require a good mathematical level. But a chapter is offered to those who are interested in group theory.
 
+
 ### Why this title (88-Musaics)?
 
-As you will see later, the musaics are both abstract and real geometric objects.
+The musaics are both abstract and real geometric objects.
 
 The study has many "ingredients" other that musaics : polygons in a musical dial, diagrams, graphs ... and even projections of hypercubes.
 
@@ -37,7 +38,7 @@ Historically, the term "harmonic mosaic" had been used.
 
 ### Why « 88 » ?
 
-12 equal temperament can be "reduced", if we accept octave identification, to 88 "harmonic structures".
+In 12 tone equal temperament, 88 is the number of "harmonic structures" contained in an octave.
 
 ### What are musaics ?
 
