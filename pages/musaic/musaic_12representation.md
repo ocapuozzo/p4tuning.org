@@ -10,7 +10,25 @@ folder: musaic
 
 ## Textual representatin of Pitch Class Set (PCS)
 
-A PCS is a subset of `{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}`
+We have a preferenc for **integer notation** as PC (*pitch class*), because it eliminates any ambiguity (no enharmonic notation such that A = Bbb = G ## ...), **but we do not prohibit the use of solfege-latin notation neither**.
+
+| Integer PC | solfege PC | pitches |  
+|-------|--------|
+| **0** | C | C0, C1, ...
+| **1** | C#, Db, ... | C#0, C#1, Db1, ...
+| **2** | D, Ebb, ... | D0, D1, ...
+| **3** | D#, Eb, ... | D#0, D#1, ...
+| **4** | E, Fb, ... | E0, E1, ...
+| **5** | F, E#, ... | F0, F1, ...
+| **6** | F#, Gb, ... | F#0, F#1, ...
+| **7** | G, Abb, ... | G0, G1, ...
+| **8** | G#, Ab, ... | G#0, G#1, ...
+| **9** | A, Bbb, ... | A0, A1, ...
+| **10** | A#, Bb, ... | A#0, A#1, ...
+| **11** | B, Cb, ... | B0, B1, ...
+
+A PCS is a **ordered** subset of `{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}`
+
 Examples :
 
   * Empty set : `{  }`;
@@ -25,7 +43,7 @@ Examples :
 Example of circles with labels :
 
 {% include image.html file='musaic/circle-chromatic.png' alt='circle-chromatic' caption='Pitch Class Circle - MST notation' %}
-{% include image.html file='musaic/circle-chromatic-latin.png' alt='circle-chromatic-latin' caption='Pitch Class Circle - Latin notation' %}
+{% include image.html file='musaic/circle-chromatic-latin.png' alt='circle-chromatic-latin' caption='Pitch Class Circle - solfege-latin sharp notation' %}
 
 
 ## Examples of *Pitch Class Set* (PCS) representation
@@ -35,12 +53,12 @@ Example of circles with labels :
 {% include image.html file='musaic/circle-fdiatonic-mst.png' alt='circle-fdiatonic MST' caption='F diatonic - MST notation<br/> &#123;0, 2, 4, 5, 7, 9, 10&#125;' %}
 {% include image.html file='musaic/circle-gdiatonic-mst.png' alt='circle-gdiatonic MST' caption='G diatonic<br/> &#123;0, 2, 4, 6, 7, 9, 11&#125;' %}
 {% include image.html file='musaic/sol7_Clock.png' alt='sol7_Clock MST' caption='G7<br/> &#123;2, 5, 7, 11&#125;' %}
-{% include image.html file='musaic/cdim7_Clock.png' alt='cdim7_Clock MST' caption='Cdim7<br/> &#123;0, 3, 6, 9&#125; ' %}
+{% include image.html file='musaic/cdim7_Clock.png' alt='cdim7_Clock MST' caption='Cdim7<br/> &#123;0, 3, 6, 9&#125;' %}
 
 
 ## Interests of circular representation
 
-As you can see, the circular representation, much more than text, makes it possible to put forward **symmetries** and **characteristic structures**, some of which are easily detectable (such as regular polygons)
+As you can see, the circular representation, much more than text, makes it possible to put forward **symmetries** and **characteristic structures**, some of which are easily detectable such as regular polygons and their relationship (but not always) with limited transposition structures.
 
 
 ## References and Co
