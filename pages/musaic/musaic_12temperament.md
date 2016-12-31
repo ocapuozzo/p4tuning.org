@@ -78,15 +78,15 @@ Here is a table of common names.
 ## Intervallic Structure (IS)
 
 Def : Intervallic Structure (**is**) is a function that, when applied to a PCS, returns, in an ordered collection, the intervals that constitute it. 
-The sum **x** of these intervals always verify this equation : `0 = x modulo n` (n=12 in our case)
+The sum **x** of these intervals always verify that `x is multiple of 12`.
 
-Exemples : 
+Examples : 
 
 *  `is({0,2})` return `(2,10)` because 0-2 is *major second* interval (2 semitones) and 2-12 interval is de Minor 7 (10 semitones). 12 modulo 12  = 0, ok. 
 *  `is({0, 4, 7})` return `(4,3,5)` (major third, minor third, fourth) 
-*  `is({4})` return `(12)` *rem : 12 modulo 12 = 0, ok. *
+*  `is({4})` return `(12)` *rem : 12 is multiple of 12 *
 *  `is({6})` return `(12)` 
-*  `is({})` return  `(0)`  *rem : 0 modulo 12 = 0, ok. *
+*  `is({})` return  `(0)`  *rem : 0 is multiple of 12 *
 *  `is({0,1,2,3,4,5,6,7,8,9,10,11})` return  `(1,1,1,1,1,1,1,1,1,1,1,1)`
 
 
