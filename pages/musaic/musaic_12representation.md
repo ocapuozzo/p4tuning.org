@@ -8,7 +8,7 @@ folder: musaic
 ---
 
 
-## Textual representatin of Pitch Class Set (PCS)
+## Textual representatin of Pitch Class (PC) and Pitch Class Set (PCS)
 
 We have a preferenc for **integer notation** as PC (*pitch class*), because it eliminates any ambiguity (no enharmonic notation such that A = Bbb = G ## ...), **but we do not prohibit the use of solfege-latin notation neither**.
 
@@ -27,7 +27,7 @@ We have a preferenc for **integer notation** as PC (*pitch class*), because it e
 | **10** | A#, Bb, ... | A#0, A#1, ...
 | **11** | B, Cb, ... | B0, B1, ...
 
-A PCS is a **ordered** subset of `{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}`
+A PCS is a subset of `{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}` (Although its elements are not ordered by definition, it is usual to present them in ascending order to facilitate their reading)
 
 Examples :
 
@@ -60,6 +60,13 @@ Example of circles with labels :
 
 As you can see, the circular representation, much more than text, makes it possible to put forward **symmetries** and **characteristic structures**, some of which are easily detectable such as regular polygons and their relationship (but not always) with limited transposition structures.
 
+### intervallic struture explained by illustration 
+
+{% include image.html file='musaic/0_2_is.png' alt='0_2_is' caption='PCS : {0, 2}<br/> is : (2, 10)' %}
+{% include image.html file='musaic/0_4_7_is.png' alt='0_4_7_is' caption='PCS : {0, 4, 7}<br/> is : (4, 3, 5)' %}
+{% include image.html file='musaic/2_6_9_is.png' alt='2_6_9_is_is' caption='PCS : {2, 6, 9}<br/> is : (4, 3, 5)' %}
+{% include image.html file='musaic/4_is.png' alt='4_is' caption='PCS : {4}<br/> is : (12)' %}
+{% include image.html file='musaic/0_1_2_3_4_5_6_7_8_9_10_11_is.png' alt='0_1_2_3_4_5_6_7_8_9_10_11_is' caption='PCS : {0,1,2,3,4,5,6,7,8,9,10,11}<br/> is : (1,1,1,1,1,1,1,1,1,1,1,1)' %}
 
 ## References and Co
 
