@@ -77,7 +77,8 @@ Here is a table of common names.
 
 ## Intervallic Structure (IS)
 
-Def : Intervallic Structure (**is**) is a function that, when applied to a PCS, returns, in an ordered collection, the intervals that constitute it. The sum **x** of these intervals always verify this equation : `0 = x modulo n` (n=12 in our case)
+Def : Intervallic Structure (**is**) is a function that, when applied to a PCS, returns, in an ordered collection, the intervals that constitute it. 
+The sum **x** of these intervals always verify this equation : `0 = x modulo n` (n=12 in our case)
 
 Exemples : 
 

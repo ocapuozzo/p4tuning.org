@@ -60,7 +60,7 @@ Example of circles with labels :
 
 As you can see, the circular representation, much more than text, makes it possible to put forward **symmetries** and **characteristic structures**, some of which are easily detectable such as regular polygons and their relationship (but not always) with limited transposition structures.
 
-### intervallic struture explained by illustration 
+## Intervallic struture by illustration 
 
 {% include image.html file='musaic/0_2_is.png' alt='0_2_is' caption='PCS : {0, 2}<br/> is : (2, 10)' %}
 {% include image.html file='musaic/0_4_7_is.png' alt='0_4_7_is' caption='PCS : {0, 4, 7}<br/> is : (4, 3, 5)' %}
