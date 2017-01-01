@@ -5,12 +5,15 @@ entries:
   levels: one
   folders:
 
-  - title: Themes
+  - title: Projects
     output: web
     folderitems:
-    - title: News
-      url: /news.html
-      output: web
     - title: 88-Musaics
       url: /musaic_overview.html
+      output: web
+    - title: P4 tuning concepts
+      url: /p4tuning_concepts_overview.html
+      output: web
+    - title: P4 training
+      url: /p4tuning_training_overview.html
       output: web

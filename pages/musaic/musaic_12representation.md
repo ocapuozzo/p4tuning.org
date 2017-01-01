@@ -65,8 +65,9 @@ As you can see, the circular representation, much more than text, makes it possi
 {% include image.html file='musaic/0_2_is.png' alt='0_2_is' caption='PCS : {0, 2}<br/> is : (2, 10)' %}
 {% include image.html file='musaic/0_4_7_is.png' alt='0_4_7_is' caption='PCS : {0, 4, 7}<br/> is : (4, 3, 5)' %}
 {% include image.html file='musaic/2_6_9_is.png' alt='2_6_9_is_is' caption='PCS : {2, 6, 9}<br/> is : (4, 3, 5)' %}
-{% include image.html file='musaic/4_is.png' alt='4_is' caption='PCS : {4}<br/> is : (12)' %}
 {% include image.html file='musaic/0_1_2_3_4_5_6_7_8_9_10_11_is.png' alt='0_1_2_3_4_5_6_7_8_9_10_11_is' caption='PCS : {0,1,2,3,4,5,6,7,8,9,10,11}<br/> is : (1,1,1,1,1,1,1,1,1,1,1,1)' %}
+{% include image.html file='musaic/4_is.png' alt='4_is' caption='PCS : {4}<br/> is : (12)' %}
+{% include image.html file='musaic/circle-chromatic.png' alt='circle-chromatic' caption='PCS : { }<br/> is : (0)' %}
 
 ## References and Co
 
