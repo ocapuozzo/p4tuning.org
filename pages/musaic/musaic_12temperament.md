@@ -63,6 +63,7 @@ This results in a naming not always logical, a priori: fifth = 7, third major = 
 
 Here is a table of common names.
 {% include image.html file='musaic/interval-piano-guitar.png' alt='interval names' caption='Current interval names from pitch class C = 0' %}
+{% include image.html file='musaic/intervals-degree.png' alt='interval names degree' caption='interval names in degree from pitch class C = 0' %}
 
 
 ## P vs PC vs PCS
@@ -77,14 +78,36 @@ Here is a table of common names.
 
 ## Intervallic Structure (IS)
 
-Def : Intervallic Structure (**is**) is a function that, when applied to a PCS, returns, in an ordered collection, the intervals that constitute it. 
-The sum **x** of these intervals always verify that `x is multiple of 12`.
+What characterizes a chord color, a scale, a mode? It is both the number of notes that compose them (cardinal) and distance between these notes (interval). 
+For example, a minor 7 chord (minor third, fifth, minor seventh) making intervals (3, 4, 3, 2) as shown below :
+ <div class="row">
+     <div class="col-md-5">
+<br/>
+<p> Example : Minor seventh structure chord :</p>
+<br/>
+<ul>
+ <li>  <code>root</code> to <code>IIIm</code> = 3 semitones</li>
+ <li>  <code>IIIm</code> to <code>V</code> = 4 semitones</li>
+ <li>  <code>V</code> to <code>VIIm</code> = 3 semitones</li>
+ <li>  <code>VIIm</code> to <code>root</code> = 2 semitones</li>
+</ul>
+ </div>
+<div class="col-md-7">
+
+{% include image.html file='musaic/0_3_7_10_is.png' alt='0_3_7_10_is' caption='minor 7 structure<br/>(3,4,3,2)' %}
+</div>
+</div
+>
+So, `(3,4,3,2)` is the marker of all minor 7 chords, is *intervallic structure* of minor7. 
+
+Def : **Intervallic Structure** (*is*) is a function that, when applied to a PCS, returns, in an ordered collection, the intervals that constitute it. 
+The sum **x** of these intervals always verify that `x is multiple of 12` (0, 12, 24 ...) .
 
 Examples : 
 
 *  `is({0,2})` return `(2,10)` because 0-2 is *major second* interval (2 semitones) and 2-12 interval is de Minor 7 (10 semitones). 10 + 2 = 12, ok. 
 *  `is({0, 4, 7})` return `(4,3,5)` (major third, minor third, fourth) 
-*  `is({4})` return `(12)` *rem : 12 is multiple of 12 *
+*  `is({4})` return `(12)` * rem: 12 is equivalent to 0 with octave identification *
 *  `is({6})` return `(12)` 
 *  `is({})` return  `(0)`  *rem : 0 is multiple of 12 *
 *  `is({0,1,2,3,4,5,6,7,8,9,10,11})` return  `(1,1,1,1,1,1,1,1,1,1,1,1)`
