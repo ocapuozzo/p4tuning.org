@@ -38,16 +38,22 @@ entries:
       output: web
 
 
-  - title: UI of musical instrument
+  - title: Genesis of the 88 musaics
     output: web, pdf
     folderitems:
 
-    - title: UI instrument in 1-dimension
-      url: /musaic_repr_dim1.html
+
+    - title: Regular instrument
+      url: /musaic_regular_instr.html
       output: web, pdf
+
 
     - title: UI instrument in 2-dimension
       url: /musaic_repr_dim2.html
+      output: web, pdf
+
+    - title: UI instrument in 1-dimension
+      url: /musaic_repr_dim1.html
       output: web, pdf
 
   - title: 4096 PCS

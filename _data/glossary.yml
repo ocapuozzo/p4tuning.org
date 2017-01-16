@@ -2,18 +2,20 @@ jekyll_platform: "Jekyll is a static site generator that builds sites using most
 
 pitch: "Specific frequency of a 'sound'. For example, C4, C3 or A4 are three distincts pitches"
 
-PC (pitch class): "set pitches related to each other by octave, enharmonic equivalence, or both. [Pitch Class](https://en.wikipedia.org/wiki/Pitch_class). For example, C (or 0) is Pitch-Class of all pitches Cx"
+pitch_class): "set pitches related to each other by octave, enharmonic equivalence, or both. [Pitch Class](https://en.wikipedia.org/wiki/Pitch_class). For example, C (or 0) is Pitch-Class of all pitches Cx"
 
 PCS: "Set of pitch-class as element of powerset of {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11} (set of all PC)"
 
-Intervallic_Structure: "Ordered list of intervals that characterizes a PCS. For example CMaj {0, 4, 7} is defined by IS: (4, 3, 5) - so major 3rd, minor 3rd and perfect 4th - as all xMaj with 3 PC. Sum of intervals is always 12. There are 352 distinct IS in twelve-tone theory."
+intervallic_structure: "Ordered list of intervals that characterizes a PCS. For example CMaj {0, 4, 7} is defined by IS: (4, 3, 5) - so major 3rd, minor 3rd and perfect 4th - as all xMaj with 3 PC. Sum of intervals is always 12. There are 352 distinct IS in twelve-tone theory."
 
 IS: see Intervallic_Structure. Notation in ordered list ( , , )
 
 DIS: Dual Iterval Space
 
-musx: where x from 1 to 88, identify one of 88 musaics. For example, *mus1* is empty-all musaic
+musxx: where x from 01 to 88, identify one of 88 musaics. For example, *mus01* is empty-all musaic
 
 motif : set of two IS-2D-Representation, mutually complementary. Textual notation is unordered set {(IS), (IS)}, Graphic notation is DIS without border.
 
 musaic_face : one on the four motifs of musaic (four ways to observe a musaic)
+
+prime_form_intervallic_structure : intervallic structure of a PCS in prime form

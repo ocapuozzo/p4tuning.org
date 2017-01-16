@@ -20,7 +20,11 @@ or **piano**
 
 {% include image.html file='musaic/keyboard-piano.png' alt='keyboard-piano linear 1 step' caption='keyboard-piano linear 1-step' %}
 
-{% include note.html content="Piano keyboard. At the bottom of the keyboard, the pitches are linearly arranged in a semitone." %}
+{% include note.html content="Piano keyboard. At the bottom of the keyboard, the pitches are linearly arranged in semitones." %}
+
+<br/>
+
+{% include important.html content="An 1-dimension instrumental interface is said to be **concise** to the extent that there are not redundant pitches (opposite to **UI redundant** having unisons - like guitar, violin, some accordions...)" %}
 
 
 {% include links.html %}

@@ -42,7 +42,7 @@ In 12 tone equal temperament, 88 is the number of "harmonic structures" containe
 
 ### What are musaics ?
 
-A musaic is a multi-faceted visual object (4 faces for the tempered set with 12 equal half-tones), one face being, at most, made up of 2 distinct patterns (color harmonic structures, known also under the name *intervallic structures*).
+A musaic is a multi-faceted visual object (4 faces for the tempered set with 12 equal half-tones), one face being, at most, made up of 2 distinct patterns (color harmonic structure, known also as *prime form*).
 
 The canonical representation of a musaic is based on a matrix canvas. The dual nature of a musaic is probably its major characteristic:
 

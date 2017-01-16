@@ -63,7 +63,7 @@ This results in a naming not always logical, a priori: fifth = 7, third major = 
 
 Here is a table of common names.
 {% include image.html file='musaic/interval-piano-guitar.png' alt='interval names' caption='Current interval names from pitch class C = 0' %}
-{% include image.html file='musaic/intervals-degree.png' alt='interval names degree' caption='interval names in degree from pitch class C = 0' %}
+{% include image.html file='musaic/interval-piano-guitar-jazz.png' alt='interval names jazz' caption='interval names in jazz analysis from pitch class C = 0' %}
 
 
 ## P vs PC vs PCS
@@ -86,10 +86,10 @@ For example, a minor 7 chord (minor third, fifth, minor seventh) making interval
 <p> Example : Minor seventh structure chord :</p>
 <br/>
 <ul>
- <li>  <code>root</code> to <code>IIIm</code> = 3 semitones</li>
- <li>  <code>IIIm</code> to <code>V</code> = 4 semitones</li>
- <li>  <code>V</code> to <code>VIIm</code> = 3 semitones</li>
- <li>  <code>VIIm</code> to <code>root</code> = 2 semitones</li>
+ <li>  <code>root</code> to <code>b3</code> = 3 semitones</li>
+ <li>  <code>b3</code> to <code>5</code> = 4 semitones</li>
+ <li>  <code>5</code> to <code>b7</code> = 3 semitones</li>
+ <li>  <code>b7</code> to <code>root</code> = 2 semitones</li>
 </ul>
  </div>
 <div class="col-md-7">
