@@ -15,7 +15,7 @@ The 88 musaics are at the intersection of several disciplines : music, harmony, 
 
 An elementary knowledge of harmony is recommanded.
 
-The many schemas (and future animations) greatly facilitate access to concepts that usually require a good mathematical level. But a chapter is offered to those who are interested in group theory.
+The many schemas (and animations) greatly facilitate access to concepts that usually require a good mathematical level. But a chapter is offered to those who are interested in group theory.
 
 
 ### Why this title (88-Musaics)?
@@ -38,15 +38,15 @@ Historically, the term "harmonic mosaic" had been used.
 
 ### Why « 88 » ?
 
-In 12 tone equal temperament, 88 is the number of "harmonic structures" contained in an octave.
+It is a reduction of the whole combinations of the temperate system represented by the twelve pitch classes, that is, 2 ^ 12 = 4096.
 
 ### What are musaics ?
 
-A musaic is a multi-faceted visual object (4 faces for the tempered set with 12 equal half-tones), one face being, at most, made up of 2 distinct patterns (color harmonic structure, known also as *prime form*).
+A musaic is a multi-faceted visual object (4 faces), one face being, at most, made up of 2 distinct patterns (color harmonic structure, known as *intervallic structure*).
 
 The canonical representation of a musaic is based on a matrix canvas. The dual nature of a musaic is probably its major characteristic:
 
-* Theoretical: Symbolic (abstract) representation of harmonic structures.
+* Theoretical: Symbolic (abstract) representation of intervallic structures.
 * Practical: System (concrete) in which can be organized all the diagrams (chords &amp; sacles) played by the fingers on certain instruments.
 
 
@@ -54,7 +54,7 @@ The canonical representation of a musaic is based on a matrix canvas. The dual n
 
 In addition to their dual nature - which alone opens up a vast area for cognitive research - the musaic representation:
 
-* Allows - by virtually immediate recognition of patterns - identification of harmonic structures
+* Allows - by virtually immediate recognition of patterns - identification of intervallic structures
 * Facilitates the understanding of certain harmonic properties, allowing an original didactic
 * Is a tool at the service of the Musical Set Theory : see [Set Theory Complete](http://repmus.ircam.fr/_media/mamux/papers/andreatta-2003-settheorycomplet.pdf) and [Music Set Theory ](https://en.wikipedia.org/wiki/Set_theory_%28music%29)
 * Is an illustration of the [Group Theory](https://en.wikipedia.org/wiki/Group_theory){:target="_blank"}

@@ -54,6 +54,7 @@ It is well known by the musician for the notation of chords: CMaj7 designates al
 
 
 ## Intervals within octave
+
 This study makes intensive use of interval.
 
 An interval is the "distance" in semitone between 2 PCs (the number of semitones separating 2 notes).
@@ -61,7 +62,7 @@ An interval is the "distance" in semitone between 2 PCs (the number of semitones
 Each interval has a name (or even several if we ignore enharmonic identification) **resulting from tonal analys** which is based on 7 notes and not 12... 
 This results in a naming not always logical, a priori: fifth = 7, third major = 4, etc.
 
-Here is a table of common names.
+Here is a table of intervlas common names (from PC = 0) :
 {% include image.html file='musaic/interval-piano-guitar.png' alt='interval names' caption='Current interval names from pitch class C = 0' %}
 {% include image.html file='musaic/interval-piano-guitar-jazz.png' alt='interval names jazz' caption='interval names in jazz analysis from pitch class C = 0' %}
 
@@ -73,7 +74,15 @@ Here is a table of common names.
 
   * Pitch Class (**PC**) refers to height class, octave equivalence is applied (example : `A` or `9`)
 
-  * Pitch Class Set (**PCS**) refers to a set of heights classes, without duplicate element (example : `{C, E, G}` or `{0, 4, 7}`)
+  * Pitch Class Set (**PCS**) refers to a set of pitch classes, without duplicate element (example : `{C, E, G}` or `{0, 4, 7}`)
+
+
+
+## PC interval
+
+Interval is a distance between two pitches, measured in semitones. It may be null (unison), ascending or descending.
+
+But this traditional perception can not be applied to PCs, because of the octave equivalence. Indeed, {0, 2} can be the expression of both a second and a seventh, therefore of an **interval** and its **inversion**.
 
 
 ## Intervallic Structure (IS)
@@ -100,16 +109,17 @@ For example, a minor 7 chord (minor third, fifth, minor seventh) making interval
 >
 So, `(3,4,3,2)` is the marker of all minor 7 chords, is *intervallic structure* of minor7. 
 
-Def : **Intervallic Structure** (*is*) is a function that, when applied to a PCS, returns, in an ordered collection, the intervals that constitute it. 
+Def : **Intervallic Structure** (*is*) is a function that, when applied to a PCS, returns, in an ordered collection of intervals that constitute it. 
 The sum **x** of these intervals always verify that `x is multiple of 12` (0, 12, 24 ...) .
 
 Examples : 
 
 *  `is({0,2})` return `(2,10)` because 0-2 is *major second* interval (2 semitones) and 2-12 interval is de Minor 7 (10 semitones). 10 + 2 = 12, ok. 
 *  `is({0, 4, 7})` return `(4,3,5)` (major third, minor third, fourth) 
+*  `is({1, 5, 8})` return `(4,3,5)` (major third, minor third, fourth) 
 *  `is({4})` return `(12)` * rem: 12 is equivalent to 0 with octave identification *
 *  `is({6})` return `(12)` 
-*  `is({})` return  `(0)`  *rem : 0 is multiple of 12 *
+*  `is({})` return  `()`  * rem : empty (as 0) *
 *  `is({0,1,2,3,4,5,6,7,8,9,10,11})` return  `(1,1,1,1,1,1,1,1,1,1,1,1)`
 
  => [See with circle representation](musaic_12representation.html)
