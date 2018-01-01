@@ -72,9 +72,9 @@ Here is a table of intervlas common names, from PC = 0 :
 
   * Pitch refers to height of sound, frequency (example : `A4`)
 
-  * Pitch Class (**PC**) refers to height class, octave equivalence is applied (example : `A` or `9`)
+  * Pitch Class (**PC**) refers to height class, octave equivalence is applied (example : `A` or `9` - in numeric notation)
 
-  * Pitch Class Set (**PCS**) refers to a set of pitch classes, without duplicate element (example : `{C, E, G}` or `{0, 4, 7}`)
+  * Pitch Class Set (**PCS**) refers to a set of pitch classes, without duplicate element (example : `{C, E, G}` or `{0, 4, 7}`) - ordered by convention
 
 
 ## PC interval
@@ -88,29 +88,30 @@ Indeed, {0, 2} can be the expression of both a second and a seventh, therefore o
 ## Intervallic Structure (IS)
 
 What characterizes a chord color, a scale, a mode? It is both the number of notes that compose them (cardinal) and distance between these notes (interval). 
-For example, a minor 7 chord (minor third, fifth, minor seventh - or b3,5,b7 or 3m,5,7m) making intervals (3, 4, 3, 2) as shown below :
+For example, a minor 7 chord is characterized by both a analytical notation from root (minor third, fifth, minor seventh - or b3,5,b7) or successive intervals (3, 4, 3, 2) as shown below :
 <div class="row">
-   <div class="col-md-5">
+   <div class="col-md-5" markdown='1'>
+<br/>   
 <br/>
-<p> Example : Minor seventh structure chord :</p>
-<br/>
-<ul>
- <li>  <code>root</code> to <code>b3</code> = 3 semitones</li>
- <li>  <code>b3</code> to <code>5</code> = 4 semitones</li>
- <li>  <code>5</code> to <code>b7</code> = 3 semitones</li>
- <li>  <code>b7</code> to <code>root</code> = 2 semitones</li>
-</ul>
+Example : Minor seventh structure chord :
+
+  * `root` to `b3` = 3 semitones
+  * `b3` to `5` = 4 semitones
+  * `5` to `b7` = 3 semitones
+  * `b7` to `root` = 2 semitones
+
  </div>
 <div class="col-md-7">
 
-{% include image.html file='musaic/0_3_7_10_is.png' alt='0_3_7_10_is' caption='minor 7 structure<br/> is : (3,4,3,2)' %}
+{% include image.html file='musaic/0_3_7_10_is.png' alt='0_3_7_10_is' caption='C minor 7 structure {0,3,7,10}<br/> is : (3,4,3,2)' %}
 </div>
-</div
->
-So, `(3,4,3,2)` is the marker of all minor 7 chords, is *intervallic structure* of minor7. 
+</div>
+So, `(3,4,3,2)` is the marker of all minor 7 chords, is *intervallic structure* of minor7 `(r,b3,5,b7)`.
+
+These two representations of a PCS structure (successive intervalls or intervalls from root) are equivalent.
 
 Def : **Intervallic Structure** (*is*) is a function that, when applied to a PCS, returns, in an ordered collection of intervals that constitute it. 
-The sum **x** of these intervals always verify that `x is multiple of 12` (0, 12, 24 ...) .
+The sum **x** of these intervals always verify that `x is multiple of 12`.
 
 Examples : 
 
@@ -119,18 +120,38 @@ Examples :
 *  `is({1, 5, 8})` return `(4,3,5)` (major third, minor third, fourth) 
 *  `is({4})` return `(0)` * rem: 12 is equivalent to 0 with octave identification *
 *  `is({6})` return `(0)` 
-*  `is({})` return  `()`  * rem : empty (as 0) *
 *  `is({0,1,2,3,4,5,6,7,8,9,10,11})` return  `(1,1,1,1,1,1,1,1,1,1,1,1)`
 
+
+## Equivalent Class of Structure - Cyclic Group
+
+We can group the PCS having the same interval structure. 
+
+
+## PCS Classes
+
+TODO 
+
+PCStrivial, PCSCyclic, Dihedral, Affine, Musaic,... other cases ?
+
+
+## PCSxx and their Prime Form
+
+As IS is ordered collection of a PCSCyclic, they have, at most, cardinal(PCS) delegates, or PCStrivial
+Example :
+
+Idem for Diheral, CyclicCplt, ...
+
+
+<br/>
  => [See with circle representation](musaic_12representation.html)
 
 ## References and Co
 
  TODO
 
-
 <br/>
-
-<a href="musaic_12representation.html" type="button">Next (representation) ></a>
+[Next> (representation)](musaic_12representation.html)
+ 
 
 {% include links.html %}

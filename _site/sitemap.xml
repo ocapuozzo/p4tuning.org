@@ -40,13 +40,25 @@
   
   
   <url>
+    <loc>http://localhost:4000/musaic_12representation.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/musaic_12temperament.html</loc>
+  </url>
+  
+  
+  
+  <url>
     <loc>http://localhost:4000/musaic_overview.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/musaic_overview_generators.html</loc>
+    <loc>http://localhost:4000/musaic_regular_instr.html</loc>
   </url>
   
   
@@ -100,12 +112,6 @@
   
   
   
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/feed.xslt.xml</loc>
-  </url>
   
   
 </urlset>

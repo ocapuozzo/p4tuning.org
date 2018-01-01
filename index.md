@@ -35,7 +35,7 @@ nosidebar: true
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4><a href="#">P4 tuning</a></h4>
+                    <h4><a href="#">P4 guitar</a></h4>
                     <p>Main concepts of <br/>all-fourths guitar tuning</p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
@@ -51,7 +51,7 @@ nosidebar: true
                 </div>
                 <div class="panel-body">
                     <h4><a href="#">Guitar training</a></h4>
-                    <p>Lessons &amp; Exercices in P4T<br/>from P4Tuning.org and more</p>
+                    <p>Lessons &amp; Exercices in P4<br/>from P4Guitar.org and more</p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
             </div>

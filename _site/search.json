@@ -8,7 +8,7 @@
 "tags": "",
 "keywords": "88-musaics, P4Tuning, jekyll",
 "url": "doc_about.html",
-"summary": "Initial authors and, I hope, community participation."
+"summary": "88-musaics and P4tuning.org are open and non-institutional projects."
 }
 ,
 
@@ -39,6 +39,28 @@
 
 
 {
+"title": "PCS representation",
+"tags": "",
+"keywords": "musaic 88musaics",
+"url": "musaic_12representation.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
+"title": "Elements of 12-ET",
+"tags": "",
+"keywords": "musaic 88musaics",
+"url": "musaic_12temperament.html",
+"summary": "This is just a sample topic..."
+}
+,
+
+
+
+{
 "title": "88-Musaics",
 "tags": "",
 "keywords": "musaic 88-Musaics",
@@ -50,10 +72,10 @@
 
 
 {
-"title": "Musaic Topic",
+"title": "Regular tuning and interface instrument",
 "tags": "",
 "keywords": "musaic 88musaics",
-"url": "musaic_overview_generators.html",
+"url": "musaic_regular_instr.html",
 "summary": "This is just a sample topic..."
 }
 ,
@@ -61,7 +83,7 @@
 
 
 {
-"title": "UI musical instrument in dimension 1",
+"title": "UI musical instrument in one dimension",
 "tags": "",
 "keywords": "musaic 88musaics",
 "url": "musaic_repr_dim1.html",
@@ -72,7 +94,7 @@
 
 
 {
-"title": "UI musical instrument in dimension 2",
+"title": "UI musical instrument in 2-dimension",
 "tags": "",
 "keywords": "musaic 88musaics",
 "url": "musaic_repr_dim2.html",
@@ -134,17 +156,6 @@
 
 
 
-
-
-
-{
-"title": "",
-"tags": "",
-"keywords": "",
-"url": "feed.xslt.xml",
-"summary": ""
-}
-,
 
 
 

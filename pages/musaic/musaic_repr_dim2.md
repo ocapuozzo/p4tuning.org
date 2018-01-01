@@ -42,6 +42,8 @@ A angular sector forms a two-dimensional array (DIS), Below, we choose as origin
 {% include image.html file='musaic/grilleCreuseVide.png'  alt='matrix without labels (1,5)' caption='matrix DIS(1,5) without labels ' %}
 {% include image.html file='musaic/grilleEmptyETC.png'  alt='DIS(1,5)' caption='DIS(1,5) as pavement<br/>(with unison axe on A3)' %}
 
+TODO way not null form un PC to the same PC
+
 This space can be considered as a *musical keyboard*. Like keyboard of piano, let us emphasize the notes of diatonic scale.
 
 {% include image.html file='musaic/grilleDiatonicETC.png' alt='C-diatonic DIS(1,5)' caption='DIS(1,5)<br/>C-diatonic <br/>(2, 2, 1, 2, 2, 2, 1)<br/>{C, D, E, F, G, A, B}' %}

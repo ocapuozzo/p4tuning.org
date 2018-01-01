@@ -10,16 +10,16 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: P4Tuning
+    - title: P4Guitar
       folderitems:
-        - title: P4Tuning concepts
-          url: /p4tuning_concepts_landing_page.html
-        - title: P4Tuning lessons
-          url: /p4tuning_lessons_landing_page.html
+        - title: P4Guitar concepts
+          url: /p4guitar_concepts_landing_page.html
+        - title: P4Guitar lessons
+          url: /p4guitar_lessons_landing_page.html
     - title: Editor Resources
       folderitems:
         - title: Github Repo
-          external_url: https://github.com/ocapuozzo/p4tuning.org
+          external_url: https://github.com/ocapuozzo/p4guitar.org
         - title: Jekyll documentation
           external_url: http://jekyllrb.com/docs/home/
         - title: Documentation Theme for Jekyll
