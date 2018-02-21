@@ -1,6 +1,0 @@
-source "https://rubygems.org"
-
-# gem 'github-pages', group: :jekyll_plugins
-# limitation in plugins (gif_tag)
-
-gem 'jekyll', group: :jekyll_plugins
