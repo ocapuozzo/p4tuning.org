@@ -11,9 +11,9 @@ entries:
     - title: 88-Musaics
       url: /musaic_overview.html
       output: web
-    - title: P4 tuning concepts
+    - title: P4 guitar concepts
       url: /p4tuning_concepts_overview.html
       output: web
-    - title: P4 training
+    - title: P4 guitar training
       url: /p4tuning_training_overview.html
       output: web

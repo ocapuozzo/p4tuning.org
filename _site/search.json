@@ -6,9 +6,9 @@
 {
 "title": "About author(s)",
 "tags": "",
-"keywords": "88-musaics, P4Tuning, jekyll",
+"keywords": "88-musaics, P4Guitar, jekyll",
 "url": "doc_about.html",
-"summary": "88-musaics and P4tuning.org are open and non-institutional projects."
+"summary": "88-musaics and P4Guitar.org are open and non-institutional projects."
 }
 ,
 
@@ -28,9 +28,9 @@
 
 
 {
-"title": "Welcome !",
+"title": "",
 "tags": "",
-"keywords": "P4Tuning",
+"keywords": "p4guitar, p4tuning, regulartuning",
 "url": "index.html",
 "summary": ""
 }
@@ -105,17 +105,6 @@
 
 
 {
-"title": "Scroll layout",
-"tags": "special_layouts",
-"keywords": "json, scrolling, scrollto, jquery plugin",
-"url": "jsmydoc_scroll.html",
-"summary": "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
-}
-,
-
-
-
-{
 "title": "News",
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
@@ -127,7 +116,7 @@
 
 
 {
-"title": "News Archive",
+"title": "News",
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
 "url": "news_archive.html",
@@ -162,21 +151,31 @@
 
 
 {
-"title": "Welcome to P4Tuning.org !",
+"title": "Sample post",
+"tags": "newsgetting_started",
+"keywords": "",
+"url": "samplepost.html",
+"summary": "This is some summary frontmatter for my sample post."
+}
+,
+
+
+{
+"title": "Welcome to Jekyll!",
 "tags": "news",
 "keywords": "",
-"url": "/firstnews.html",
+"url": "myupdate.html",
 "summary": ""
 }
 ,
 
 
 {
-"title": "Sample post",
-"tags": "newsgetting_started",
+"title": "Test post from last year",
+"tags": "news",
 "keywords": "",
-"url": "/samplepost.html",
-"summary": "This is some summary frontmatter for my sample post."
+"url": "test-post-from-last-year.html",
+"summary": ""
 }
 
 

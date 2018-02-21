@@ -1,8 +1,8 @@
 ---
-title: "P4 Tuning"
-tagName: p4tuning
+title: "P4 Guitar"
+tagName: p4guitar
 search: exclude
-permalink: tag_p4tuning.html
+permalink: tag_p4guitar.html
 sidebar: mydoc_sidebar
 folder: tags
 ---

@@ -3,13 +3,19 @@
   
   
   <url>
-    <loc>http://localhost:4000/firstnews.html</loc>
+    <loc>http://localhost:4000/samplepost.html</loc>
   </url>
   
   
   
   <url>
-    <loc>http://localhost:4000/samplepost.html</loc>
+    <loc>http://localhost:4000/myupdate.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/test-post-from-last-year.html</loc>
   </url>
   
   
@@ -71,12 +77,6 @@
   
   <url>
     <loc>http://localhost:4000/musaic_repr_dim2.html</loc>
-  </url>
-  
-  
-  
-  <url>
-    <loc>http://localhost:4000/js/mydoc_scroll.html</loc>
   </url>
   
   

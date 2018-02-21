@@ -1,9 +1,10 @@
 ---
-title: Welcome !
-keywords: P4Tuning
+title: 
+keywords: p4guitar, p4tuning, regulartuning
 toc: false
 permalink: index.html
-nosidebar: true
+hide_sidebar: true
+comments: false
 ---
 <div class="row">
         <div class="col-lg-12">
@@ -35,7 +36,7 @@ nosidebar: true
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4><a href="#">P4 guitar</a></h4>
+                    <h4><a href="#">P4-Guitar</a></h4>
                     <p>Main concepts of <br/>all-fourths guitar tuning</p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
@@ -50,9 +51,10 @@ nosidebar: true
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4><a href="#">Guitar training</a></h4>
+                    <h4><a href="#">P4-Guitar training</a></h4>
                     <p>Lessons &amp; Exercices in P4<br/>from P4Guitar.org and more</p>
                     <a href="#" class="btn btn-primary">Learn More</a>
+                    {% gif images/testC7M5.gif %}
                 </div>
             </div>
         </div>

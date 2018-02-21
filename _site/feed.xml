@@ -5,23 +5,9 @@
         <description>88-Musaics, the hidden treasure of the twelve-tone equal temperamentThe hidden treasure of the twelve-tone equal temperament</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 01 Jan 2018 23:14:16 +0100</pubDate>
-        <lastBuildDate>Mon, 01 Jan 2018 23:14:16 +0100</lastBuildDate>
-        <generator>Jekyll v3.3.1</generator>
-        
-        <item>
-            <title>Welcome to P4Tuning.org !</title>
-            <description>&lt;p&gt;First news welcome !&lt;/p&gt;
-
-</description>
-            <pubDate>Wed, 21 Dec 2016 00:00:00 +0100</pubDate>
-            <link>http://localhost:4000/firstnews.html</link>
-            <guid isPermaLink="true">http://localhost:4000/firstnews.html</guid>
-            
-            <category>news</category>
-            
-            
-        </item>
+        <pubDate>Wed, 21 Feb 2018 15:36:14 +0100</pubDate>
+        <lastBuildDate>Wed, 21 Feb 2018 15:36:14 +0100</lastBuildDate>
+        <generator>Jekyll v3.6.2</generator>
         
         <item>
             <title>Sample post</title>
@@ -41,6 +27,44 @@
             <category>news</category>
             
             <category>getting_started</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Welcome to Jekyll!</title>
+            <description>&lt;p&gt;Theme updates:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Permalinks&lt;/li&gt;
+  &lt;li&gt;Kramdown&lt;/li&gt;
+  &lt;li&gt;URL specified in config file&lt;/li&gt;
+  &lt;li&gt;removed PDF output&lt;/li&gt;
+  &lt;li&gt;removed some of the alternative layouts&lt;/li&gt;
+  &lt;li&gt;added blog feature&lt;/li&gt;
+  &lt;li&gt;sidebars configurable per page&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+            <pubDate>Wed, 24 Feb 2016 00:00:00 +0100</pubDate>
+            <link>http://localhost:4000/myupdate.html</link>
+            <guid isPermaLink="true">http://localhost:4000/myupdate.html</guid>
+            
+            <category>news</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Test post from last year</title>
+            <description>&lt;p&gt;This is just a test post from the previous year.&lt;/p&gt;
+
+</description>
+            <pubDate>Sun, 12 Apr 2015 00:00:00 +0200</pubDate>
+            <link>http://localhost:4000/test-post-from-last-year.html</link>
+            <guid isPermaLink="true">http://localhost:4000/test-post-from-last-year.html</guid>
+            
+            <category>news</category>
             
             
         </item>

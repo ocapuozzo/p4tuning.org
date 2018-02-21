@@ -5,18 +5,16 @@ topnav:
   items:
     - title: 88-Musaics
       url: /musaic_overview.html
+    - title: P4 Concepts
+      url: /p4guitar_concepts_landing_page.html
+    - title: P4 Training
+      url: /p4guitar_training_landing_page.html
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: P4Guitar
-      folderitems:
-        - title: P4Guitar concepts
-          url: /p4guitar_concepts_landing_page.html
-        - title: P4Guitar lessons
-          url: /p4guitar_lessons_landing_page.html
-    - title: Editor Resources
+    - title: Others
       folderitems:
         - title: Github Repo
           external_url: https://github.com/ocapuozzo/p4guitar.org
@@ -26,8 +24,6 @@ topnav_dropdowns:
           external_url: http://idratherbewriting.com/documentation-theme-jekyll/
         - title: How to participate
           url: /doc_howto_participate.html
-    - title: Others
-      folderitems:
         - title: News
           url: /news
         - title: About

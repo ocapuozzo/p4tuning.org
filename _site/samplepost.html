@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,30 @@
 <title>Sample post | P4Guitar</title>
 <link rel="stylesheet" href="css/syntax.css">
 
-
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
 <link rel="stylesheet" href="css/modern-business.css">
-<link rel="stylesheet" href="css/lavish-bootstrap.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
 <link rel="stylesheet" href="css/theme-blue.css">
-<link rel="stylesheet" href="css/musaic.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="js/jquery.navgoco.min.js"></script>
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
 <script src="js/toc.js"></script>
 <script src="js/customscripts.js"></script>
 
-<link rel="shortcut icon" href="images/favicon.ico?v2">
+<link rel="shortcut icon" href="images/favicon.ico">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,10 +41,10 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000feed.xml">
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
 
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             // Initialize navgoco with default options
             $("#mysidebar").navgoco({
                 caretHtml: '',
@@ -57,12 +62,12 @@
                 }
             });
 
-            $("#collapseAll").click(function(e) {
+            $("#collapseAll").click(function (e) {
                 e.preventDefault();
                 $("#mysidebar").navgoco('toggle', false);
             });
 
-            $("#expandAll").click(function(e) {
+            $("#expandAll").click(function (e) {
                 e.preventDefault();
                 $("#mysidebar").navgoco('toggle', true);
             });
@@ -75,12 +80,54 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+    <script>
+        $(document).ready(function () {
+            $("#tg-sb-link").click(function () {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
     
+    <script>
 
+        $(document).ready(function () {
+                var gif = [];
+                $('figure.animated_gif_frame img').each(function (i, n) {
+                    var data = $(n).attr('src').replace(/\.(png|jpg)$/, '.gif');
+                    gif.push(data);
+                    $(n).attr('data-source', data).data('alt', data).on('click', function () {
+                        var $img = $(this),
+                            imgSrc = $img.attr('src'),
+                            imgAlt = $img.attr('data-source'),
+                            imgExt = imgAlt.replace(/^.*?\.(\w+)$/, '$1');
+
+                        if (imgExt === 'gif') {
+                            $img.attr('src', $img.data('alt')).attr('data-source', imgSrc);
+                            $img.closest('.animated_gif_frame').addClass('playing');
+                        } else {
+                            $img.attr('src', imgAlt).attr('data-source', $img.data('alt'));
+                            $img.closest('.animated_gif_frame').removeClass('playing');
+                        }
+                    });
+                });
+
+                var image = [];
+
+                $.each(gif, function (index) {
+                    image[index] = new Image();
+                    image[index].src = gif[index];
+
+                });
+        });
+    </script>
 </head>
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-static-top">
     <div class="container topnavlinks">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -89,16 +136,29 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">&nbsp; <img src="images/p4guitar-logo-icon.png" alt="logo" />&nbsp;<span class="projectTitle"> P4Guitar.org</span></a>
-            <!--a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> P4Guitar.org</span></a -->
+            <a class="navbar-brand" href="index.html">&nbsp;  <span class="projectTitle"><img src="images/p4guitar-logo-icon.png" alt="logo"/> &nbsp; P4Guitar.org</span></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
                 <!-- entries without drop-downs appear here -->
+
+
+
+
                 
                 
                 
                 <li><a href="musaic_overview.html">88-Musaics</a></li>
+                
+                
+                
+                <li><a href="p4guitar_concepts_landing_page.html">P4 Concepts</a></li>
+                
+                
+                
+                <li><a href="p4guitar_training_landing_page.html">P4 Training</a></li>
                 
                 
                 
@@ -107,22 +167,7 @@
                 
                 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">P4Guitar<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        
-                        
-                        <li><a href="p4guitar_concepts_landing_page.html">P4Guitar concepts</a></li>
-                        
-                        
-                        
-                        <li><a href="p4guitar_lessons_landing_page.html">P4Guitar lessons</a></li>
-                        
-                        
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Editor Resources<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         
                         
@@ -140,13 +185,6 @@
                         
                         <li><a href="doc_howto_participate.html">How to participate</a></li>
                         
-                        
-                    </ul>
-                </li>
-                
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
                         
                         
                         <li><a href="news">News</a></li>
@@ -167,7 +205,7 @@
 
   <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:olivier.capuozzo@gmail.com?subject=P4Guitar.org feedback&body=I have some feedback about the Sample post page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
-<li>
+</li>
 
 		
                 <!--comment out this block if you want to hide search-->
@@ -199,73 +237,67 @@
 
 <!-- Page Content -->
 <div class="container">
-    <div class="col-lg-12">&nbsp;</div>
-    <!-- Content Row -->
-    <div class="row">
-    
-    
-    <!-- Sidebar Column -->
-    <div class="col-md-3">
-      
+    <div id="main">
+        <!-- Content Row -->
+        <div class="row">
 
-
-
-
-
-
-
+            
+            
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
 
 <ul id="mysidebar" class="nav">
-    <li class="sidebarTitle"> </li>
-    
-    
-    
-    <li>
-        <a href="#">Projects</a>
-        <ul>
-            
-            
-            
-            <li><a href="musaic_overview.html">88-Musaics</a></li>
-            
-            
-            
-            
-            
-            
-            <li><a href="p4tuning_concepts_overview.html">P4 tuning concepts</a></li>
-            
-            
-            
-            
-            
-            
-            <li><a href="p4tuning_training_overview.html">P4 training</a></li>
-            
-            
-            
-            
-        </ul>
-        
-        
-        
-        <!-- if you aren't using the accordion, uncomment this block:
-           <p class="external">
-               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
-           </p>
-           -->
-    </li>
+  <li class="sidebarTitle"> </li>
+  
+  
+  
+  <li>
+      <a href="#">Projects</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_overview.html">88-Musaics</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="p4tuning_concepts_overview.html">P4 guitar concepts</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="p4tuning_training_overview.html">P4 guitar training</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
 </ul>
-</div>
 
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
-     <!-- Content Column -->
-     <div class="col-md-9">
-    
-
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+            </div>
+            
+            
+            <!-- Content Column -->
+            <div class="col-md-9" id="tg-sb-content">
+                <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">Sample post</h1>
@@ -310,24 +342,43 @@
 
 
 
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'ocapuozzo'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
 <hr class="shaded"/>
 
 <footer>
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2018 P4Guitar.org. All rights reserved. <br />
- Site last generated: Jan 1, 2018 <br />
+ Site last generated: Feb 21, 2018 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>
 </footer>
 
 
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#main -->
     </div>
-    <!-- /.row -->
+    <!-- /.container -->
 </div>
-<!-- /.container -->
-    </div>
 
 </body>
 
