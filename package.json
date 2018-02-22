@@ -1,0 +1,11 @@
+
+{
+  "name": "push-gh-pages",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node push-gh-pages.js"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}

@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This is just a sample topic...">
+<meta name="keywords" content=" musaic 88musaics">
+<title>Elements of 12-ET | P4Guitar</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://p4guitar.org/feed.xml">
+
+    <script>
+        $(document).ready(function () {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function (e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function (e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#tg-sb-link").click(function () {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+    <script>
+
+        $(document).ready(function () {
+                var gif = [];
+                $('figure.animated_gif_frame img').each(function (i, n) {
+                    var data = $(n).attr('src').replace(/\.(png|jpg)$/, '.gif');
+                    gif.push(data);
+                    $(n).attr('data-source', data).data('alt', data).on('click', function () {
+                        var $img = $(this),
+                            imgSrc = $img.attr('src'),
+                            imgAlt = $img.attr('data-source'),
+                            imgExt = imgAlt.replace(/^.*?\.(\w+)$/, '$1');
+
+                        if (imgExt === 'gif') {
+                            $img.attr('src', $img.data('alt')).attr('data-source', imgSrc);
+                            $img.closest('.animated_gif_frame').addClass('playing');
+                        } else {
+                            $img.attr('src', imgAlt).attr('data-source', $img.data('alt'));
+                            $img.closest('.animated_gif_frame').removeClass('playing');
+                        }
+                    });
+                });
+
+                var image = [];
+
+                $.each(gif, function (index) {
+                    image[index] = new Image();
+                    image[index].src = gif[index];
+
+                });
+        });
+    </script>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">&nbsp;  <span class="projectTitle"><img src="images/p4guitar-logo-icon.png" alt="logo"/> &nbsp; P4Guitar.org</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="musaic_overview.html">88-Musaics</a></li>
+                
+                
+                
+                <li><a href="p4guitar_concepts_landing_page.html">P4 Concepts</a></li>
+                
+                
+                
+                <li><a href="p4guitar_training_landing_page.html">P4 Training</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://github.com/ocapuozzo/p4guitar.org" target="_blank">Github Repo</a></li>
+                        
+                        
+                        
+                        <li><a href="http://jekyllrb.com/docs/home/" target="_blank">Jekyll documentation</a></li>
+                        
+                        
+                        
+                        <li><a href="http://idratherbewriting.com/documentation-theme-jekyll/" target="_blank">Documentation Theme for Jekyll</a></li>
+                        
+                        
+                        
+                        <li><a href="doc_howto_participate.html">How to participate</a></li>
+                        
+                        
+                        
+                        <li><a href="news">News</a></li>
+                        
+                        
+                        
+                        <li><a href="doc_about.html">About</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:olivier.capuozzo@gmail.com?subject=P4Guitar.org feedback&body=I have some feedback about the Elements of 12-ET page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Elements of 12-ET">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <div id="main">
+        <!-- Content Row -->
+        <div class="row">
+
+            
+            
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">Musaic 1.0</li>
+  
+  
+  
+      
+  
+  <li>
+      <a href="#">Introduction</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_overview.html">Overview</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">12 Equal Temperament</a>
+      <ul>
+          
+          
+          
+          <li class="active"><a href="musaic_12temperament.html">Introduction</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_12representation.html">PCS represenation</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">4096 PCS</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_set3_enumeration.html">Understanding the enumeration</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_4096.html">PCS enumeration</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_repr_4096.html">PCS representation (Qn)</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">4096 -> 352 IS</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_transmposition_equivalence.html">Transpositon equivalence (352 IS)</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_choice_repr.html">Choice of representative element</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Genesis of the 88 musaics</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_regular_instr.html">Regular instrument</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_repr_dim1.html">UI instrument in 1-dimension</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_repr_dim2.html">UI instrument in 2-dimension</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">352 -> 180 Motifs</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_motif_overview.html">Motif definition</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_motif_enumeration.html">Motif enumeration (180)</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_motif_repr.html">Motif representation</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">180 -> 88 Musaics</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_motif_operations.html">4 operations on one Motif</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_four_faces.html">Musaic, a four-faced object</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_enumeration.html">Musaic enumeration (88)</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_repr.html">88-Musaics representation</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Mathematic &amp; Musaics</a>
+      <ul>
+          
+          
+          
+          <li><a href="musaic_math_overview.html">Overview</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="musaic_math_logics.html">Logics (Algebra, Set Theory, Arithmetic)</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+            
+            <!-- Content Column -->
+            <div class="col-md-9" id="tg-sb-content">
+                <div class="post-header">
+   <h1 class="post-title-main">Elements of 12-ET</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">This is just a sample topic...</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+
+    
+
+  <h2 id="introduction">Introduction</h2>
+
+<p>This study falls within the simplified framework of the <a href="https://en.wikipedia.org/wiki/Equal_temperament">12 equal temperament</a> (which divides the octave into twelve “equal” parts)</p>
+
+<p>Nothing new, is the case of the main musical instruments with prepared notes (fretted instruments, piano, synthesizer, …)</p>
+
+<h2 id="generators-of-12">Generators of 12</h2>
+
+<p>Chromatic scale can be generated in 4 ways (4 integers where are prime form with 12):</p>
+
+<ul>
+  <li>step <strong>1</strong> : C0, C#0, D0, D#0, E0, F0, F#0, G0, G#0, A0, A#0, B0, C1, C#1, etc.
+    <ul>
+      <li>Case of string instrument,  piano keyboard</li>
+    </ul>
+  </li>
+  <li>step <strong>5</strong> : C0, F0, Bb0, Eb1, Ab1, Db2, Gb2, B2, E3, A3, D4, G4, C5, F5, etc. (rem : Bb ~ A# ~ Cbb …)
+    <ul>
+      <li>Conjugated with the first (step 1),  case of string instruments tuning in fourths (guitar, bass, bajosexto, …)</li>
+    </ul>
+  </li>
+  <li>step <strong>7</strong> : C0, G0, D1, A1, E2, B2, F#3, C#4,  G#4, D#5, A#5, F6, C7, G7, etc.
+    <ul>
+      <li>Conjugated with the first (step 1),  case of string instruments tuning in firths (mandolin, violin, cello, …)</li>
+    </ul>
+  </li>
+  <li>step <strong>11</strong> : C0, B0, A#1, A2, G#3, G4, F#5, F6, E7, D#8, D9, C#10, C11, B11, etc.
+    <ul>
+      <li>? no case ?</li>
+    </ul>
+  </li>
+</ul>
+
+<figure><img class="docimage" src="images/musaic/alpha-gamma-transp.png" alt="cycles-1-5-7-11" /><figcaption>4 generators of 12</figcaption></figure>
+
+<h2 id="enharmonic-equivalence">Enharmonic equivalence</h2>
+
+<p>Enharmonic equivalence is a pragmatic axiom that unifies close pitches such as C4, B3#, D4bb …</p>
+
+<p>It is on this principle that, today, many user interfaces (UI) of musical instrument are designed (keyboard piano, guitar frets, …).</p>
+
+<h2 id="octave-equivalence">Octave equivalence</h2>
+
+<p><em>Octave equivalence</em> is manifested by the fact we spell different pitches by the <em>same</em> name, whatever this frequency, on condition that are on octave rapport.</p>
+
+<p>For example, there are different sounds such as C4, C5, C6, but only one equivalence class named C.</p>
+
+<ul>
+  <li>C0, C5, …, Cn are pitches</li>
+  <li>C is Pitch Class in <em>Musical Set Theory</em> terminology, noted most often 0 (zero).</li>
+</ul>
+
+<p>It is well known by the musician for the notation of chords: CMaj7 designates all the chords, with a Cx as root, based on a structure (4, 3, 4, 1) ie 3rd maj, fifth and major seventh.</p>
+
+<figure><img class="docimage" src="images/musaic/circleFullPitches.png" alt="pitches in cycles" /><figcaption>Enharmonic and Octave equivalence<br />(with integer notation)</figcaption></figure>
+
+<h2 id="intervals-within-octave">Intervals within octave</h2>
+
+<p>This study makes intensive use of interval.</p>
+
+<p>An interval is the “distance” in semitone between 2 PCs (the number of semitones separating 2 notes).</p>
+
+<p>Each interval has a name (or even several if we ignore enharmonic identification) <strong>resulting from tonal analys</strong> which is based on 7 notes and not 12… 
+This results in a naming not always logical, a priori: fifth = 7, third major = 4, etc.</p>
+
+<p>Here is a table of intervlas common names, from PC = 0 :</p>
+<figure><img class="docimage" src="images/musaic/interval-piano-guitar.png" alt="interval names" /><figcaption>Current interval names from pitch class C = 0</figcaption></figure>
+
+<figure><img class="docimage" src="images/musaic/interval-piano-guitar-jazz.png" alt="interval names jazz" /><figcaption>interval names in jazz analysis from pitch class C = 0</figcaption></figure>
+
+<h2 id="p-vs-pc-vs-pcs">P vs PC vs PCS</h2>
+
+<ul>
+  <li>
+    <p>Pitch refers to height of sound, frequency (example : <code class="highlighter-rouge">A4</code>)</p>
+  </li>
+  <li>
+    <p>Pitch Class (<strong>PC</strong>) refers to height class, octave equivalence is applied (example : <code class="highlighter-rouge">A</code> or <code class="highlighter-rouge">9</code> - in numeric notation)</p>
+  </li>
+  <li>
+    <p>Pitch Class Set (<strong>PCS</strong>) refers to a set of pitch classes, without duplicate element (example : <code class="highlighter-rouge">{C, E, G}</code> or <code class="highlighter-rouge">{0, 4, 7}</code>) - ordered by convention</p>
+  </li>
+</ul>
+
+<h2 id="pc-interval">PC interval</h2>
+
+<p>Interval is a distance between two pitches, measured in semitones. It may be null (unison), ascending or descending.</p>
+
+<p>But this traditional perception can not be applied to PCs, because of the octave equivalence which cancels orientation. 
+Indeed, {0, 2} can be the expression of both a second and a seventh, therefore of an <strong>interval</strong> and its <strong>inversion</strong>.</p>
+
+<h2 id="intervallic-structure-is">Intervallic Structure (IS)</h2>
+
+<p>What characterizes a chord color, a scale, a mode? It is both the number of notes that compose them (cardinal) and distance between these notes (interval). 
+For example, a minor 7 chord is characterized by both a analytical notation from root (minor third, fifth, minor seventh - or b3,5,b7) or successive intervals (3, 4, 3, 2) as shown below :</p>
+<div class="row">
+   <div class="col-md-5">
+    <p><br /> <br />
+<br />
+Example : Minor seventh structure chord :</p>
+
+    <ul>
+      <li><code class="highlighter-rouge">root</code> to <code class="highlighter-rouge">b3</code> = 3 semitones</li>
+      <li><code class="highlighter-rouge">b3</code> to <code class="highlighter-rouge">5</code> = 4 semitones</li>
+      <li><code class="highlighter-rouge">5</code> to <code class="highlighter-rouge">b7</code> = 3 semitones</li>
+      <li><code class="highlighter-rouge">b7</code> to <code class="highlighter-rouge">root</code> = 2 semitones</li>
+    </ul>
+
+  </div>
+<div class="col-md-7">
+
+<figure><img class="docimage" src="images/musaic/0_3_7_10_is.png" alt="0_3_7_10_is" /><figcaption>C minor 7 structure {0,3,7,10}<br /> is : (3,4,3,2)</figcaption></figure>
+
+</div>
+</div>
+<p>So, <code class="highlighter-rouge">(3,4,3,2)</code> is the marker of all minor 7 chords, is <em>intervallic structure</em> of minor7 <code class="highlighter-rouge">(r,b3,5,b7)</code>.</p>
+
+<p>These two representations of a PCS structure (successive intervalls or intervalls from root) are equivalent.</p>
+
+<p>Def : <strong>Intervallic Structure</strong> (<em>is</em>) is a function that, when applied to a PCS, returns, in an ordered collection of intervals that constitute it. 
+The sum <strong>x</strong> of these intervals always verify that <code class="highlighter-rouge">x is multiple of 12</code>.</p>
+
+<p>Examples :</p>
+
+<ul>
+  <li><code class="highlighter-rouge">is({0,2})</code> return <code class="highlighter-rouge">(2,10)</code> because 0-2 is <em>major second</em> interval (2 semitones) and 2-12 interval is de Minor 7 (10 semitones). 10 + 2 = 12, ok.</li>
+  <li><code class="highlighter-rouge">is({0, 4, 7})</code> return <code class="highlighter-rouge">(4,3,5)</code> (major third, minor third, fourth)</li>
+  <li><code class="highlighter-rouge">is({1, 5, 8})</code> return <code class="highlighter-rouge">(4,3,5)</code> (major third, minor third, fourth)</li>
+  <li><code class="highlighter-rouge">is({4})</code> return <code class="highlighter-rouge">(0)</code> * rem: 12 is equivalent to 0 with octave identification *</li>
+  <li><code class="highlighter-rouge">is({6})</code> return <code class="highlighter-rouge">(0)</code></li>
+  <li><code class="highlighter-rouge">is({0,1,2,3,4,5,6,7,8,9,10,11})</code> return  <code class="highlighter-rouge">(1,1,1,1,1,1,1,1,1,1,1,1)</code></li>
+</ul>
+
+<h2 id="equivalent-class-of-structure---cyclic-group">Equivalent Class of Structure - Cyclic Group</h2>
+
+<p>We can group the PCS having the same interval structure.</p>
+
+<h2 id="pcs-classes">PCS Classes</h2>
+
+<p>TODO</p>
+
+<p>PCStrivial, PCSCyclic, Dihedral, Affine, Musaic,… other cases ?</p>
+
+<h2 id="pcsxx-and-their-prime-form">PCSxx and their Prime Form</h2>
+
+<p>As IS is ordered collection of a PCSCyclic, they have, at most, cardinal(PCS) delegates, or PCStrivial
+Example :</p>
+
+<p>Idem for Diheral, CyclicCplt, …</p>
+
+<p><br />
+ =&gt; <a href="musaic_12representation.html">See with circle representation</a></p>
+
+<h2 id="references-and-co">References and Co</h2>
+
+<p>TODO</p>
+
+<p><br />
+<a href="musaic_12representation.html">Next&gt; (representation)</a></p>
+
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'ocapuozzo'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2018 P4Guitar.org. All rights reserved. <br />
+ Site last generated: Feb 22, 2018 <br />
+<p><img src="images/company_logo.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#main -->
+    </div>
+    <!-- /.container -->
+</div>
+
+</body>
+
+</html>
