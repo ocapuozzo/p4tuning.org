@@ -73,10 +73,10 @@
     <script>
 
         $(document).ready(function () {
-                var gif = [];
+                var _gifs = [];
                 $('figure.animated_gif_frame img').each(function (i, n) {
                     var data = $(n).attr('src').replace(/\.(png|jpg)$/, '.gif');
-                    gif.push(data);
+                    _gifs.push(data);
                     $(n).attr('data-source', data).data('alt', data).on('click', function () {
                         var $img = $(this),
                             imgSrc = $img.attr('src'),
@@ -93,13 +93,14 @@
                     });
                 });
 
-                var image = [];
-
-                $.each(gif, function (index) {
-                    image[index] = new Image();
-                    image[index].src = gif[index];
+                // preload images
+                var _images = [];
+                $.each(_gifs, function (index) {
+                    _images[index] = new Image();
+                    _images[index].src = _gifs[index];
 
                 });
+
         });
     </script>
 </head>
