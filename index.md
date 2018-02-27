@@ -54,7 +54,9 @@ comments: false
                     <h4><a href="#">P4-Guitar training</a></h4>
                     <p>Lessons &amp; Exercices in P4<br/>from P4Guitar.org and more</p>
                     <a href="#" class="btn btn-primary">Learn More</a>
+                    {% comment %}
                     {% gif images/testC7M5.gif %}
+                    {% endcomment %}
                 </div>
             </div>
         </div>
