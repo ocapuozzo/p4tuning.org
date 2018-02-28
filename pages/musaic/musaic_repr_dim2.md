@@ -40,7 +40,7 @@ A angular sector forms a two-dimensional array (DIS), Below, we choose as origin
 
 
 {% include image.html file='musaic/grilleCreuseVide.png'  alt='matrix without labels (1,5)' caption='matrix DIS(1,5) without labels ' %}
-{% include image.html file='musaic/grilleEmptyETC.png'  alt='DIS(1,5)' caption='DIS(1,5) as pavement<br/>(with unison axe on A3)' %}
+{% include image.html file='musaic/grilleEmptyETC.png'  alt='DIS(1,5)' caption='DIS(1,5) as pavement<br/>(with unison axe on A3 - a non-concise interface)' %}
 
 TODO way not null form un PC to the same PC
 
@@ -74,13 +74,28 @@ With this system of representation, each harmonic color is associated with one a
 We can even remove the labels to **better emphasize the shape**.
 
 Would you recognize the diatonic intervallic structure form (2, 2, 1, 2, 2, 2, 1) ? :
-
+<table>
+<tr>
+<td>
 {% include image.html file='musaic/exo1-1_Musaique_Matrix.png' alt=' ? ' caption='1' %}
+</td>
+<td>
 {% include image.html file='musaic/exo1-2_Musaique_Matrix.png' alt=' ? ' caption='2' %}
+</td>
+<td>
 {% include image.html file='musaic/exo1-3_Musaique_Matrix.png' alt=' ? ' caption='3' %}
+</td>
+<td>
 {% include image.html file='musaic/exo1-4_Musaique_Matrix.png' alt=' ? ' caption='4' %}
+</td>
+<td>
 {% include image.html file='musaic/exo1-5_Musaique_Matrix.png' alt=' ? ' caption='5' %}
+</td>
+<td>
 {% include image.html file='musaic/exo1-6_Musaique_Matrix.png' alt=' ? ' caption='6' %}
+</td>
+</tr>
+</table>
 
 ... We think you did. There are four : 1, 2, 3 and 6. Each time, it is the **same pattern** used to select the diatonic form. 
 

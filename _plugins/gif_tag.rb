@@ -115,7 +115,7 @@ module Jekyll
           #   cdn.sub!(/\/$/,'') if cdn
           # end
 
-          caption = "<figcaption>Click to play&hellip;</figcaption>"
+          caption = "<figcaption class="captiongif">Click to play&hellip;</figcaption>"
           datacaption = "Click to play&hellip;"
 
           %Q{<figure class="animated_gif_frame" data-caption=""><img class="animated_gif" src="#{cdn}#{@poster}" data-source="#{cdn}#{@img}"#{width}#{height}>#{caption}</figure>}

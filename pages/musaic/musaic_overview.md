@@ -9,7 +9,7 @@ folder: musaic
 
 ### Which scope ?
 
-The 88 musaics are at the intersection of several disciplines : music, harmony, mathematics, didactics, instrumental play (in particular for the guitar tuned in fourths « P4 tunning » but not only)
+The 88 musaics are at the intersection of several disciplines : music, harmony, mathematics, didactics, instrumental play (in particular for the guitar tuned in fourths « P4 tuning » but not only)
 
 ### Prerequisites ?
 
@@ -38,7 +38,7 @@ Historically, the term "harmonic mosaic" had been used.
 
 ### Why « 88 » ?
 
-It is a reduction of the whole combinations of the temperate system represented by the twelve pitch classes, that is, 2 ^ 12 = 4096.
+It is a pictogram reduction of the whole possible combinations of the twelve pitch classes forming the temperate system, that is, 2 ^ 12 = 4096 <=> 88.
 
 ### What are musaics ?
 

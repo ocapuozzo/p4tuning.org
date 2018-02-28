@@ -4,6 +4,7 @@ keywords: p4guitar, p4tuning, regulartuning
 toc: false
 permalink: index.html
 hide_sidebar: true
+no_sidebar: true
 comments: false
 ---
 <div class="row">
@@ -66,7 +67,7 @@ comments: false
    <div class="col-lg-12">
       <div class="col-sm-2"></div>
       <div class="col-sm-8">
-        <p style="text-align:center"><i>This site has two vocations : present to the general public the 88 musaics of twelve-tone equal temperament and one of its applications through the playing on all-fourths guitar tuning.</i></p></div>
+        <p style="text-align:center"><i>The purpose of this site is twofold: to show the possible link between the 88 musics and the P4 guitar playing and to propose a logical structure for the learning all-fourths guitar tuning.</i></p></div>
       <div class="col-sm-2"></div>
    </div>
 </div>

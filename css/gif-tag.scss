@@ -46,11 +46,7 @@ figure.animated_gif_frame {
     margin-left: -60px;
     width: 120px;
     height: 1.5em;
-    /*
-    margin-left: -80px;
-    width: 160px;
-    height: 2em;
-    */
+
     top: 110%;
     margin-top: -1em;
     white-space: nowrap;
@@ -61,17 +57,16 @@ figure.animated_gif_frame {
     display: none;
   }
 
-  img {
+  img.animated_gif {
     padding: 0 !important;
     border: none;
     @include box-shadow(none);
     @include opacity(0.5);
   }
 
-  figcaption {
+  figcaption.captiongif {
     position: absolute;
     top: 80%;
-    /* bottom: 0; */
     background: rgba(0, 0, 0, .5);
     color: white;
     display: block;

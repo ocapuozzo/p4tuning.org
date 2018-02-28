@@ -39,7 +39,9 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+    {% unless page.no_sidebar %}
     <script>
+
         $(document).ready(function () {
             $("#tg-sb-link").click(function () {
                 $("#tg-sb-sidebar").toggle();
@@ -50,6 +52,8 @@
             });
         });
     </script>
+    {% endunless %}
+
     {% if page.datatable == true %}
     <!-- Include the standard DataTables bits -->
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
@@ -113,7 +117,7 @@
         <div class="row">
 
             {% assign content_col_size = "col-md-12" %}
-            {% unless page.hide_sidebar %}
+            {% unless page.hide_sidebar or page.no_sidebar %}
             <!-- Sidebar Column -->
             <div class="col-md-3" id="tg-sb-sidebar">
                 {% include sidebar.html %}
