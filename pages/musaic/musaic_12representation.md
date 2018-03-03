@@ -41,20 +41,34 @@ Examples :
 ## Circular representation of 12 Pitch Class 
 
 Example of circles with labels :
-
+<div class="row">
+<div class="col-xs-6 col-md-6">
 {% include image.html file='musaic/circle-chromatic.png' alt='circle-chromatic' caption='Pitch Class Circle - MST notation' %}
+</div><div class="col-xs-6 col-md-6">
 {% include image.html file='musaic/circle-chromatic-latin.png' alt='circle-chromatic-latin' caption='Pitch Class Circle - solfege-latin sharp notation' %}
-
+</div>
+</div>
 
 ## Examples of *Pitch Class Set* (PCS) representation
 
-{% include image.html file='musaic/circle-cdiatonic.png' alt='circle-cdiatonic' caption='C diatonic<br/> &#123;0, 2, 4, 5, 7, 9, 11&#125;' %}
+<div class="row">
+<div class="col-xs-3 col-md-3">
+{% include image.html file='musaic/circle-cdiatonic.png' alt='circle-cdiatonic' caption='C diatonic<br/> &#123;0, 2, 4, 5, 7, 9, 11&#125;' %}</div>
+<div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/circle-fdiatonic-latin.png' alt='circle-fdiatonic' caption='F diatonic<br/> &#123;0, 2, 4, 5, 7, 9, 10&#125;' %}
+</div><div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/circle-fdiatonic-mst.png' alt='circle-fdiatonic MST' caption='F diatonic - MST notation<br/> &#123;0, 2, 4, 5, 7, 9, 10&#125;' %}
+</div>
+</div>
+<div class="row">
+<div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/circle-gdiatonic-mst.png' alt='circle-gdiatonic MST' caption='G diatonic<br/> &#123;0, 2, 4, 6, 7, 9, 11&#125;' %}
+</div><div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/sol7_Clock.png' alt='sol7_Clock MST' caption='G7<br/> &#123;2, 5, 7, 11&#125;' %}
+</div><div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/cdim7_Clock.png' alt='cdim7_Clock MST' caption='Cdim7<br/> &#123;0, 3, 6, 9&#125;' %}
-
+</div>
+</div>
 
 ## Interests of circular representation
 
@@ -62,13 +76,24 @@ As you can see, the circular representation, much more than text, makes it possi
 
 ## Intervallic struture by illustration 
 
+<div class="row">
+<div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/0_2_is.png' alt='0_2_is' caption='PCS : {0, 2}<br/> is : (2, 10)' %}
+</div><div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/0_4_7_is.png' alt='0_4_7_is' caption='PCS : {0, 4, 7}<br/> is : (4, 3, 5)' %}
+</div><div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/2_6_9_is.png' alt='2_6_9_is_is' caption='PCS : {2, 6, 9}<br/> is : (4, 3, 5)' %}
+</div>
+</div>
+<div class="row">
+<div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/0_1_2_3_4_5_6_7_8_9_10_11_is.png' alt='0_1_2_3_4_5_6_7_8_9_10_11_is' caption='PCS : {0,1,2,3,4,5,6,7,8,9,10,11}<br/> is : (1,1,1,1,1,1,1,1,1,1,1,1)' %}
+</div><div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/4_is.png' alt='4_is' caption='PCS : {4}<br/> is : (0) - or (12)' %}
+</div><div class="col-xs-3 col-md-3">
 {% include image.html file='musaic/circle-chromatic.png' alt='circle-chromatic' caption='PCS : { }<br/> is : () - empty list' %}
-
+</div>
+</div>
 ## References and Co
 
 
