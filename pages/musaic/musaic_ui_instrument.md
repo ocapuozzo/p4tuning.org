@@ -1,11 +1,64 @@
 ---
 title: UI musical instrument in 2-dimension
-keywords: musaic 88musaics
-summary: "This is just a sample topic..."
+keywords: musaic, 88musaics
+summary: "Matrix interfaces are shapes revealer"
 sidebar: musaic_sidebar
-permalink: musaic_repr_dim2.html
+permalink: musaic_ui_instrument.html
 folder: musaic
 ---
+
+## Regular instrument
+
+### String instrument
+
+Most stringed instruments are structured by a logical system: the contiguous strings are separated by the same interval, without exception.
+
+The majority of stringed instruments is in regular tuning : violins (7-7-7-7), bass (5-5-5-5)... But this is not the case of the traditional guitar tuning that is (in semitone): 5-5-5-5-4-5, unlike the guitar in fourths: 5-5-5-5-5-5
+
+<div class="row">
+  <div class="col-md-6">
+{% include image.html file='musaic/guitar-regular-p4tuning.png' alt='guitar regular p4 tuning' caption='guitar regular p4 tuning' %}
+  </div>
+  
+  <div class="col-md-6">
+{% include image.html file='musaic/guitar-non-regular-traditional-tuning.png' alt='guitar non regular traditional tuning' caption='guitar non regular traditional tuning<br>trouble in translation' %}
+ </div>
+</div>
+
+### keyboard instrument 
+
+Regular tuning does not always rhyme with uniform interface ... Indeed, the piano is a *hybride* regular instrument to the extent that its interface is "chromatic shape logic" at the bottom of the keyboard keys, and "C diatonic shape" in the foreground of keyboard keys where
+the distance between a white key and its neighbor is, depending on the case, either 2 semitones or 1 semitone : Thus the **correspondence between geometric distance and interval distance is broken**.
+
+
+{% include image.html file='musaic/keyboard-piano.png' alt='keyboard-piano non regular' caption='keyboard-piano hybride regular interface' %}
+
+See new keyboard (symmetrical piano) : [symmetrical-ui keyboard](http://www.le-nouveau-clavier.fr/english/){:target="_blank"} 
+
+### win instrument 
+
+Few regular interface in this range of acoustic instruments
+
+TODO
+
+## Linear instrument
+
+Util minimum for musical instrument is to take one generator, more often genrator **1**.
+
+For example, **mono string** instrument.
+
+*  [monochord principle](https://en.wikipedia.org/wiki/Monochord){:target="_blank"}
+*  [Example Đàn bầu](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u){:target="_blank"}
+
+or **piano**
+
+{% include image.html file='musaic/keyboard-piano.png' alt='keyboard-piano linear 1 step' caption='keyboard-piano linear 1-step' %}
+
+{% include note.html content="Piano keyboard. At the bottom of the keyboard, the pitches are linearly arranged in semitones." %}
+
+<br/>
+
+{% include important.html content="An 1-dimension instrumental interface is said to be **concise** to the extent that there are not redundant pitches (opposite to **UI redundant** having unisons - like guitar, violin, some accordions...)" %}
 
 
 ## Matrix instrument
@@ -41,8 +94,6 @@ A angular sector forms a two-dimensional array (DIS), Below, we choose as origin
 
 {% include image.html file='musaic/grilleCreuseVide.png'  alt='matrix without labels (1,5)' caption='matrix DIS(1,5) without labels ' %}
 {% include image.html file='musaic/grilleEmptyETC.png'  alt='DIS(1,5)' caption='DIS(1,5) as pavement<br/>(with unison axe on A3 - a non-concise interface)' %}
-
-TODO way not null form un PC to the same PC
 
 This space can be considered as a *musical keyboard*. Like keyboard of piano, let us emphasize the notes of diatonic scale.
 
@@ -102,7 +153,7 @@ Would you recognize the diatonic intervallic structure form (2, 2, 1, 2, 2, 2, 1
 Examples :
 
 
-{% include image.html file='musaic/mask1.gif' alt='diatonic form' caption='Diatonic form animation' %}
+{% include image.html file='musaic/mask-is-motif.gif' alt='diatonic form' caption='Diatonic form animation' %}
 
 The drawing you recognized is as follows (central figure):
 
@@ -128,22 +179,11 @@ By definition, all diatonic scales are same intervallic structure `(2, 2, 1, 2, 
   </div>
 </div>
 
-Thus, as will be appreciated, such a pattern is the expression of two *prime form intervallic structures*, mutually complementary, each of which can be realized by, at most, 12 different PCS (here, pentatonic and diatonic scales in 12 tones - 2 scales that have marked the history of music...)
+Thus, as will be appreciated, such a pattern is the expression of two *intervallic structures*, mutually complementary, each of which can be realized by, at most, 12 different PCS (here, pentatonic and diatonic scales in 12 tones - 2 scales that have marked the history of music...)
 
 How many distincts "motif patterns" are they in an octave of 12 equal semitones?
 
-To answer it, we must determine the number of distinct subsets included in `{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}`.
+You will find the answer by following this link : [88-musaics.org](http://88-musaics.org){:target="_blank"}
 
-
-## 4096 PCS
-
-## 352 prime form intervallic structures
-
-## 180 
-
-## 88
-
-<br/>
-<a href="musaic_enumeration.html" type="button">Next > : Musaics enumeration</a>
 
 {% include links.html %}

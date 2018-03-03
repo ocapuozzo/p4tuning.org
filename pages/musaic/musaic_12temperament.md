@@ -125,30 +125,24 @@ Examples :
 
 ## Equivalent Class of Structure - Cyclic Group
 
-We can group the PCS having the same interval structure. 
+We can group the PCS having the same interval structure (352 classes)
 
 
-## PCS Classes
+## PCS-Class
 
-TODO 
-
-PCStrivial, PCSCyclic, Dihedral, Affine, Musaic,... other cases ?
+Grouping criteria (PCStrivial, PCSCyclic, Dihedral, Affine, Musaic,... )
 
 
-## PCSxx and their Prime Form
+## PCS-Class and Prime Form
 
-As IS is ordered collection of a PCSCyclic, they have, at most, cardinal(PCS) delegates, or PCStrivial
-Example :
-
-Idem for Diheral, CyclicCplt, ...
-
+Prime Forme is minimal PCS of this PCS-Classe (_minimal element of class_) 
 
 <br/>
  => [See with circle representation](musaic_12representation.html)
 
 ## References and Co
 
- TODO
+ Musical Set Theory
 
 <br/>
 [Next> (representation)](musaic_12representation.html)

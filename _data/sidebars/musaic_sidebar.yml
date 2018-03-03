@@ -38,92 +38,10 @@ entries:
       output: web
 
 
-  - title: 4096 PCS
-    output: web, pdf
-    folderitems:
-
-    - title: Understanding the enumeration 
-      url: /musaic_set3_enumeration.html
-      output: web, pdf
-
-    - title: PCS enumeration
-      url: /musaic_4096.html
-      output: web, pdf
-
-    - title: PCS representation (Qn)
-      url: /musaic_repr_4096.html
-      output: web, pdf
-
-  - title: 4096 -> 352 IS
-    output: web, pdf
-    folderitems:
-
-    - title: Transpositon equivalence (352 IS)
-      url: /musaic_transmposition_equivalence.html
-      output: web, pdf
-
-    - title: Choice of representative element
-      url: /musaic_choice_repr.html
-      output: web, pdf
-
-
   - title: Genesis of the 88 musaics
     output: web, pdf
     folderitems:
-
-    - title: Regular instrument
-      url: /musaic_regular_instr.html
+    - title: UI instrument
+      url: /musaic_ui_instrument.html
       output: web, pdf
 
-    - title: UI instrument in 1-dimension
-      url: /musaic_repr_dim1.html
-      output: web, pdf
-
-    - title: UI instrument in 2-dimension
-      url: /musaic_repr_dim2.html
-      output: web, pdf
-
-
-  - title: 352 -> 180 Motifs
-    output: web, pdf
-    folderitems:
-    - title: Motif definition
-      url: /musaic_motif_overview.html
-      output: web
-
-    - title: Motif enumeration (180)
-      url: /musaic_motif_enumeration.html
-      output: web, pdf
-
-    - title: Motif representation
-      url: /musaic_motif_repr.html
-      output: web, pdf
-
-  - title: 180 -> 88 Musaics
-    output: web, pdf
-    folderitems:
-    - title: 4 operations on one Motif
-      url: /musaic_motif_operations.html
-      output: web
-
-    - title: Musaic, a four-faced object
-      url: /musaic_four_faces.html
-      output: web
-
-    - title: Musaic enumeration (88)
-      url: /musaic_enumeration.html
-      output: web, pdf
-
-    - title: 88-Musaics representation
-      url: /musaic_repr.html
-      output: web, pdf
-      
-  - title: Mathematic &amp; Musaics
-    output: web, pdf
-    folderitems:
-    - title: Overview
-      url: /musaic_math_overview.html
-      output: web
-    - title: Logics (Algebra, Set Theory, Arithmetic)
-      url: /musaic_math_logics.html
-      output: web

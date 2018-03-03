@@ -1,0 +1,103 @@
+<script>
+    /*
+     * Sample of transformation operations on 7th (C7 PCS)
+     * animation are GIF images (from code openscad then gimp process)
+     * (c) olivier.capuozzo@gmail.com
+     *
+     * TODO : dynamic process in JS (client side)
+     *
+     */
+    var klein_group = {
+        'm5_m7': 'm11',
+        'm7_m5': 'm11',
+        'm5_m11': 'm7',
+        'm11_m5': 'm7',
+        'm7_m11': 'm5',
+        'm11_m7': 'm5',
+        'm5_m5': 'id',
+        'm7_m7': 'id',
+        'm11_m11': 'id',
+//        'm5_id': 'm5',
+        'id_m5': 'm5',
+//        'm7_id': 'm7',
+        'id_m7': 'm7',
+//        'm11_id': 'm11',
+        'id_m11': 'm11',
+        'id_id': 'id'
+    };
+    // PCS C7 (1,3,5,b7)
+    var pcs_transf = {
+        'id'  : "{0, 4, 7, 10}",
+        'm5'  : "{0, 2, 8, 11}",
+        'm7'  : "{0, 1, 4, 10}",
+        'm11' : "{0, 2, 5, 8}"
+    };
+
+    var PATH_IMAGE_ANIM = "images/musaic_anim";
+
+    // preload images
+    var images = [];
+    var i = 0;
+    for(key in klein_group){
+        var image = new Image();
+        image.src = PATH_IMAGE_ANIM + '/' + key + '.gif';
+        images[i++] = image;
+    }
+
+    function actionTransformation(img) {
+        var transformation = document.getElementById(img.id).getAttribute('data-transf');
+        var image_from = document.getElementById('animated_gif_musaic').getAttribute('data-from');
+        var image_to = document.getElementById('animated_gif_musaic').getAttribute('data-to');
+
+        // console.log("image_from = " +  image_from);
+        // console.log("image_to = " +  image_to);
+
+        // apply klein group reduction
+        image_from = klein_group[image_from + "_" + image_to];
+        image_to = transformation;
+
+        var from_to = image_from + "_" + image_to;
+        var next_image = PATH_IMAGE_ANIM + "/" + from_to + ".gif";
+
+        var caption = "C7 . " + from_to + " = " + pcs_transf[klein_group[from_to]];
+
+        // console.log("next image = " +  next_image);
+
+        document.getElementById('animated_gif_musaic').setAttribute('src', next_image);
+        document.getElementById('animated_gif_musaic').setAttribute('data-from', image_from);
+        document.getElementById('animated_gif_musaic').setAttribute('data-to', image_to);
+        document.getElementById('idcaptionanim').innerHTML = caption;
+    }
+
+</script>
+
+<figure style="text-align: center" playing>
+      <img id='animated_gif_musaic' data-from="id" data-to="id"
+               src= "images/musaic_anim/id_id.gif"  alt="C7"  height="215" width="215">
+     <figcaption id="idcaptionanim"> C7.id = {0, 4, 7, 10} </figcaption>
+
+</figure>
+<p style="text-align: center" >
+    <img class="inline" style="max-width: 93px; height: auto; cursor: pointer;"
+         src="images/musaic/m11-transp.png"
+         alt="m11"
+         data-transf="m11"
+         id="animM11"
+         onclick="actionTransformation(this)" />
+
+    <img class="inline" style="max-width: 93px; height: auto; cursor: pointer;"
+         src="images/musaic/m5-transp.png"
+         alt="m5"
+         data-transf="m5"
+         id="animM5"
+         onclick="actionTransformation(this)" />
+
+    <img class="inline" style="max-width: 93px; height: auto; cursor: pointer;"
+         src="images/musaic/m7-transp.png"
+         alt="m7"
+         data-transf="m7"
+         id="animM7"
+         onclick="actionTransformation(this)" />
+    <br>
+    <span style="font-style: italic">click on image to trigger operation...</span>
+</p>

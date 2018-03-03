@@ -13,9 +13,7 @@ The 88 musaics are at the intersection of several disciplines : music, harmony, 
 
 ### Prerequisites ?
 
-An elementary knowledge of harmony is recommanded.
-
-The many schemas (and animations) greatly facilitate access to concepts that usually require a good mathematical level. But a chapter is offered to those who are interested in group theory.
+Basic knowledge of harmony is recommended, but not necessary..
 
 
 ### Why this title (88-Musaics)?
@@ -24,7 +22,7 @@ The musaics are both abstract and real geometric objects.
 
 The study has many "ingredients" other that musaics : polygons in a musical dial, diagrams, graphs ... and even projections of hypercubes.
 
-And if these forms are here at the service of musical harmony (atonal and tonal), they will also be observed according to several other points of view: geometry, set theory, group theory, didactics...
+And if these forms are here at the service of musical harmony (**atonal** and **tonal**), they will also be observed according to several other points of view: geometry, set theory, group theory, didactics...
 
 As there are exactly 88 musaics, and not a more, in this study, musaics and 88-musaics are synonymous. Besides this study, the term 88-musaics is preferable because "musaic" is not a registered designation and can already be used by others to identify different concepts.
 
@@ -38,7 +36,7 @@ Historically, the term "harmonic mosaic" had been used.
 
 ### Why « 88 » ?
 
-It is a pictogram reduction of the whole possible combinations of the twelve pitch classes forming the temperate system, that is, 2 ^ 12 = 4096 <=> 88.
+It is a pictogram reduction of the whole possible combinations of the twelve pitch classes forming the temperated system (equal division of the octave), that is, 2 ^ 12 = 4096 <=> 88.
 
 ### What are musaics ?
 

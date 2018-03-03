@@ -22,6 +22,8 @@
 # If ImageMagick's `identify` is available (or set in _config.yml with "imagemagick_identify")
 # image width and height will be included in the tag as attributes. A fallback to `sips` is
 # provided if available (OS X).
+#
+# https://github.com/ttscoff/JekyllPlugins/blob/master/GifTag/gif_tag.rb
 
 class Numeric
   def to_human
@@ -115,10 +117,10 @@ module Jekyll
           #   cdn.sub!(/\/$/,'') if cdn
           # end
 
-          caption = "<figcaption class="captiongif">Click to play&hellip;</figcaption>"
+          caption = "<figcaption>Click to play&hellip;</figcaption>"
           datacaption = "Click to play&hellip;"
 
-          %Q{<figure class="animated_gif_frame" data-caption=""><img class="animated_gif" src="#{cdn}#{@poster}" data-source="#{cdn}#{@img}"#{width}#{height}>#{caption}</figure>}
+          %Q{<figure class="animated_gif_frame" data-caption="GIF#{size}"><img class="animated_gif" src="#{cdn}#{@poster}" data-source="#{cdn}#{@img}"#{width}#{height}>#{caption}</figure>}
         else
           error || "<Error processing input, expected syntax: {% gif poster_path %}>"
         end
