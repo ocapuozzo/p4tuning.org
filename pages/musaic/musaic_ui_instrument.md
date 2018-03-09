@@ -1,5 +1,5 @@
 ---
-title: UI musical instrument in 2-dimension
+title: UI musical instrument
 keywords: musaic, 88musaics
 summary: "Matrix interfaces are shapes revealer"
 sidebar: musaic_sidebar
@@ -7,65 +7,12 @@ permalink: musaic_ui_instrument.html
 folder: musaic
 ---
 
-## Regular instrument
-
-### String instrument
-
-Most stringed instruments are structured by a logical system: the contiguous strings are separated by the same interval, without exception.
-
-The majority of stringed instruments is in regular tuning : violins (7-7-7-7), bass (5-5-5-5)... But this is not the case of the traditional guitar tuning that is (in semitone): 5-5-5-5-4-5, unlike the guitar in fourths: 5-5-5-5-5-5
-
-<div class="row">
-  <div class="col-md-6">
-{% include image.html file='musaic/guitar-regular-p4tuning.png' alt='guitar regular p4 tuning' caption='guitar regular p4 tuning' %}
-  </div>
-  
-  <div class="col-md-6">
-{% include image.html file='musaic/guitar-non-regular-traditional-tuning.png' alt='guitar non regular traditional tuning' caption='guitar non regular traditional tuning<br>trouble in translation' %}
- </div>
-</div>
-
-### keyboard instrument 
-
-Regular tuning does not always rhyme with uniform interface ... Indeed, the piano is a *hybride* regular instrument to the extent that its interface is "chromatic shape logic" at the bottom of the keyboard keys, and "C diatonic shape" in the foreground of keyboard keys where
-the distance between a white key and its neighbor is, depending on the case, either 2 semitones or 1 semitone : Thus the **correspondence between geometric distance and interval distance is broken**.
-
-
-{% include image.html file='musaic/keyboard-piano.png' alt='keyboard-piano non regular' caption='keyboard-piano hybride regular interface' %}
-
-See new keyboard (symmetrical piano) : [symmetrical-ui keyboard](http://www.le-nouveau-clavier.fr/english/){:target="_blank"} 
-
-### win instrument 
-
-Few regular interface in this range of acoustic instruments
-
-TODO
-
-## Linear instrument
-
-Util minimum for musical instrument is to take one generator, more often genrator **1**.
-
-For example, **mono string** instrument.
-
-*  [monochord principle](https://en.wikipedia.org/wiki/Monochord){:target="_blank"}
-*  [Example Đàn bầu](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u){:target="_blank"}
-
-or **piano**
-
-{% include image.html file='musaic/keyboard-piano.png' alt='keyboard-piano linear 1 step' caption='keyboard-piano linear 1-step' %}
-
-{% include note.html content="Piano keyboard. At the bottom of the keyboard, the pitches are linearly arranged in semitones." %}
-
-<br/>
-
-{% include important.html content="An 1-dimension instrumental interface is said to be **concise** to the extent that there are not redundant pitches (opposite to **UI redundant** having unisons - like guitar, violin, some accordions...)" %}
-
 
 ## Matrix instrument
 
 As regular tuning instrument, a matrix instrument is instance of a *dual interval space* (DIS), as two-dimentional array of pitches where "rows" are separated by the same interval, the "columns" (non-zero) interval. 
 
-Matrix instrument are noted as follows: DIS(y,x) where **y** is row interval and **x** is culumn interval. 
+Matrix instrument can be noted as follows: DIS(y,x) where **y** is row interval and **x** is culumn interval. 
 
 {% include image.html file='musaic/violinDIS.png'  alt='samples DIS' caption='DIS(1,7)<br/>violin' %}
 {% include image.html file='musaic/accordionMD.png'  alt='samples DIS' caption='<br/>DIS(2,3)<br/>accordion (right hand)' %}
@@ -184,6 +131,59 @@ Thus, as will be appreciated, such a pattern is the expression of two *intervall
 How many distincts "motif patterns" are they in an octave of 12 equal semitones?
 
 You will find the answer by following this link : [88-musaics.org](http://88-musaics.org){:target="_blank"}
+
+## Regular instrument
+
+### String instrument
+
+Most stringed instruments are structured by a logical system: the contiguous strings are separated by the same interval, without exception.
+
+The majority of stringed instruments is in regular tuning : violins (7-7-7-7), bass (5-5-5-5)... But this is not the case of the traditional guitar tuning that is (in semitone): 5-5-5-5-4-5, unlike the guitar in fourths: 5-5-5-5-5-5
+
+<div class="row">
+  <div class="col-md-6">
+{% include image.html file='musaic/guitar-regular-p4tuning.png' alt='guitar regular p4 tuning' caption='guitar regular p4 tuning' %}
+  </div>
+  
+  <div class="col-md-6">
+{% include image.html file='musaic/guitar-non-regular-traditional-tuning.png' alt='guitar non regular traditional tuning' caption='guitar non regular traditional tuning<br>trouble in translation' %}
+ </div>
+</div>
+
+### keyboard instrument 
+
+Regular tuning does not always rhyme with uniform interface ... Indeed, the piano is a *hybride* regular instrument to the extent that its interface is "chromatic shape logic" at the bottom of the keyboard keys, and "C diatonic shape" in the foreground of keyboard keys where
+the distance between a white key and its neighbor is, depending on the case, either 2 semitones or 1 semitone : Thus the **correspondence between geometric distance and interval distance is broken**.
+
+
+{% include image.html file='musaic/keyboard-piano.png' alt='keyboard-piano non regular' caption='keyboard-piano hybride regular interface' %}
+
+See new keyboard (symmetrical piano) : [symmetrical-ui keyboard](http://www.le-nouveau-clavier.fr/english/){:target="_blank"} 
+
+### win instrument 
+
+Few regular interface in this range of acoustic instruments
+
+TODO
+
+## Linear instrument
+
+Util minimum for musical instrument is to take one generator, more often genrator **1**.
+
+For example, **mono string** instrument.
+
+*  [monochord principle](https://en.wikipedia.org/wiki/Monochord){:target="_blank"}
+*  [Example Đàn bầu](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u){:target="_blank"}
+
+or **piano**.
+
+{% include note.html content="Piano keyboard. At the bottom of the keyboard, the pitches are linearly arranged in semitones." %}
+
+<br/>
+
+{% include important.html content="An 1-dimension instrumental interface is said to be **concise** to the extent that there are not redundant pitches (opposite to **UI redundant** having unisons - like guitar, violin, some accordions...)" %}
+
+
 
 
 {% include links.html %}
