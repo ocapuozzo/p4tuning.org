@@ -16,6 +16,8 @@ topnav_dropdowns:
   folders:
     - title: Others
       folderitems:
+        - title: News
+          url: /news
         - title: Github Repo
           external_url: https://github.com/ocapuozzo/p4guitar.org
         - title: Jekyll documentation
@@ -24,7 +26,5 @@ topnav_dropdowns:
           external_url: http://idratherbewriting.com/documentation-theme-jekyll/
         - title: How to participate
           url: /doc_howto_participate.html
-        - title: News
-          url: /news
         - title: About
           url: /doc_about.html

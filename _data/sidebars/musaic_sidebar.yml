@@ -1,8 +1,8 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Musaic
-  product: Musaic
+- title: 88-Musaics
+  product: 88-Musaics
   version: 1.0
   folders:
 

@@ -7,6 +7,28 @@ permalink: musaic_overview.html
 folder: musaic
 ---
 
+### What is Musaic ?
+
+* Musaic is a concret representation of an abstract object.
+* An object without borders limits (physical, cultural), revealing relationships between _intervallic structures_.
+
+A musaic is a multi-faceted visual object (4 faces), one face being, at most, made up of 2 distinct patterns (color harmonic structure, known as *intervallic structure*).
+
+The canonical representation of a musaic is based on a matrix canvas. The dual nature of a musaic is probably its major characteristic:
+
+* Theoretical: Symbolic (abstract) representation of intervallic structures.
+* Practical: System (concrete) in which can be organized all the diagrams (chords &amp; sacles) played by the fingers on certain instruments.
+
+
+### Example of Musaic ?
+
+
+<div class="home">
+    {% include sample_musaic_transforme_anim.html %}
+</div>
+
+
+
 ### Which scope ?
 
 The 88 musaics are at the intersection of several disciplines : music, harmony, mathematics, didactics, instrumental play (in particular for the guitar tuned in fourths « P4 tuning » but not only)
@@ -38,15 +60,6 @@ Historically, the term "harmonic mosaic" had been used.
 
 It is a pictogram reduction of the whole possible combinations of the twelve pitch classes forming the temperated system (equal division of the octave), that is, 2 ^ 12 = 4096 <=> 88.
 
-### What are musaics ?
-
-A musaic is a multi-faceted visual object (4 faces), one face being, at most, made up of 2 distinct patterns (color harmonic structure, known as *intervallic structure*).
-
-The canonical representation of a musaic is based on a matrix canvas. The dual nature of a musaic is probably its major characteristic:
-
-* Theoretical: Symbolic (abstract) representation of intervallic structures.
-* Practical: System (concrete) in which can be organized all the diagrams (chords &amp; sacles) played by the fingers on certain instruments.
-
 
 ### What is their interest ?
 
@@ -63,6 +76,10 @@ The trellis (metallic structure) is not the fruit (living nature that grows on i
 
 {% include image.html file='treillis.png'  alt='trellis is not fruit' caption='trellis is not fruit<br/> (Garden : Chaumont-sur-Loire
 47.478, 1.181)' %}
+
+### More...
+
+[See 88-musaics.org](http://88-musaics.org)
 
 
 {% include links.html %}
