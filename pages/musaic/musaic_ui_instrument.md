@@ -10,14 +10,14 @@ folder: musaic
 
 ## Matrix instrument
 
-As regular tuning instrument, a matrix instrument is instance of a *dual interval space* (DIS), as two-dimentional array of pitches where "rows" are separated by the same interval, the "columns" (non-zero) interval. 
+As regular tuning instrument, a matrix instrument is instance of a *dual interval space* (DIS), as two-dimentional array of pitches where "rows" are separated by the same interval, the "columns" (non-zero) interval.
 
-Matrix instrument can be noted as follows: DIS(y,x) where **y** is row interval and **x** is culumn interval. 
+Matrix instrument can be noted as follows: DIS(y,x) where **y** is row interval and **x** is culumn interval.
 
 {% include image.html file='musaic/violinDIS.png'  alt='samples DIS' caption='DIS(1,7)<br/>violin' %}
 {% include image.html file='musaic/accordionMD.png'  alt='samples DIS' caption='<br/>DIS(2,3)<br/>accordion (right hand)' %}
 
-For a more formal definition of DIS see [Dual Interval Space in Twentieth-Century Music, Stephen C.Brown](http://mts.oxfordjournals.org/content/25/1/35.abstract){:target="_blank"}.
+Rem : for a formal definition of DIS see [Dual Interval Space in Twentieth-Century Music, Stephen C.Brown](http://mts.oxfordjournals.org/content/25/1/35.abstract){:target="_blank"}.
 
 
 ## Case of strings instruments
@@ -37,10 +37,6 @@ The 4 generators of 12 {**1**, **5**, **7**, **11**}  -- or more conceptualy {1,
 {% include note.html content="Thereafter we will retain sector **1-O-5**, which corresponds to perfect fourth guitar tuning, but all that will be studied is transposable, true, to the 3 other sectors (In particular string instruments tuning in *fifths* - 1-O-7)."  type="primary"  %}
 
 A angular sector forms a two-dimensional array (DIS), Below, we choose as origin 0, elements are pitches in [scientific pitch notation](https://en.wikipedia.org/wiki/Scientific_pitch_notation){:target="_blank"}.
-
-
-{% include image.html file='musaic/grilleCreuseVide.png'  alt='matrix without labels (1,5)' caption='matrix DIS(1,5) without labels ' %}
-{% include image.html file='musaic/grilleEmptyETC.png'  alt='DIS(1,5)' caption='DIS(1,5) as pavement<br/>(with unison axe on A3 - a non-concise interface)' %}
 
 This space can be considered as a *musical keyboard*. Like keyboard of piano, let us emphasize the notes of diatonic scale.
 
@@ -95,19 +91,12 @@ Would you recognize the diatonic intervallic structure form (2, 2, 1, 2, 2, 2, 1
 </tr>
 </table>
 
-... We think you did. There are four : 1, 2, 3 and 6. Each time, it is the **same pattern** used to select the diatonic form. 
+... We think you did. There are four : 1, 2, 3 and 6. Each time, it is the **same pattern** used to select the diatonic form.
 
 Examples :
 
 
 {% include image.html file='musaic/mask-is-motif.gif' alt='diatonic form' caption='Diatonic form animation' %}
-
-The drawing you recognized is as follows (central figure):
-
-
-{% include image.html file='musaic/exo1_sameShapeMusaique_Matrix.png' alt='diatonic form' caption='12 Diatonic scales in DIS(1,5)<br/>(12 transpositions)' %}
-{% include image.html file='musaic/exo1_sameCircleShapMusaique_Matrix.png' alt='diatonic circle form' caption='12 Diatonic scales in circle<br/>(12 transpositions)' %}
-
 
 By definition, all diatonic scales are same intervallic structure `(2, 2, 1, 2, 2, 2, 1)` that may be represented by a graphic motif, invariant by transposition.
 
@@ -144,13 +133,13 @@ The majority of stringed instruments is in regular tuning : violins (7-7-7-7), b
   <div class="col-md-6">
 {% include image.html file='musaic/guitar-regular-p4tuning.png' alt='guitar regular p4 tuning' caption='guitar regular p4 tuning' %}
   </div>
-  
+
   <div class="col-md-6">
 {% include image.html file='musaic/guitar-non-regular-traditional-tuning.png' alt='guitar non regular traditional tuning' caption='guitar non regular traditional tuning<br>trouble in translation' %}
  </div>
 </div>
 
-### keyboard instrument 
+### keyboard instrument
 
 Regular tuning does not always rhyme with uniform interface ... Indeed, the piano is a *hybride* regular instrument to the extent that its interface is "chromatic shape logic" at the bottom of the keyboard keys, and "C diatonic shape" in the foreground of keyboard keys where
 the distance between a white key and its neighbor is, depending on the case, either 2 semitones or 1 semitone : Thus the **correspondence between geometric distance and interval distance is broken**.
@@ -158,9 +147,9 @@ the distance between a white key and its neighbor is, depending on the case, eit
 
 {% include image.html file='musaic/keyboard-piano.png' alt='keyboard-piano non regular' caption='keyboard-piano hybride regular interface' %}
 
-See new keyboard (symmetrical piano) : [symmetrical-ui keyboard](http://www.le-nouveau-clavier.fr/english/){:target="_blank"} 
+See new keyboard (symmetrical piano) : [symmetrical-ui keyboard](http://www.le-nouveau-clavier.fr/english/){:target="_blank"}
 
-### win instrument 
+### win instrument
 
 Few regular interface in this range of acoustic instruments
 
