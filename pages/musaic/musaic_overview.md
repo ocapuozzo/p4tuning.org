@@ -16,8 +16,8 @@ A musaic is a multi-faceted visual object (4 faces), one face being, at most, ma
 
 The canonical representation of a musaic is based on a matrix canvas. The dual nature of a musaic is probably its major characteristic:
 
-* Theoretical: Symbolic (abstract) representation of intervallic structures.
-* Practical: System (concrete) in which can be organized all the diagrams (chords &amp; sacles) played by the fingers on certain instruments.
+* Theoretical: Symbolic (abstract - based on PCS) representation of intervallic structures
+* Practical: System (concrete - based on Pitch) in which can be organized all the diagrams (chords &amp; sacles) played by the fingers on certain instruments.
 
 
 ### Example of Musaic ?
@@ -81,7 +81,7 @@ The trellis (metallic structure) is not the fruit (living nature that grows on i
 
 ### More...
 
-[See 88-musaics.org](http://88-musaics.org)
+[See 88 musaics](https://sites.google.com/view/88musaics/88musaicsexplained)
 
 
 {% include links.html %}

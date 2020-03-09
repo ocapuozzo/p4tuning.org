@@ -117,9 +117,9 @@ By definition, all diatonic scales are same intervallic structure `(2, 2, 1, 2, 
 
 Thus, as will be appreciated, such a pattern is the expression of two *intervallic structures*, mutually complementary, each of which can be realized by, at most, 12 different PCS (here, pentatonic and diatonic scales in 12 tones - 2 scales that have marked the history of music...)
 
-How many distincts "motif patterns" are they in an octave of 12 equal semitones?
+How many distincts "motif patterns" are they in an octave of 12 equal semitones? 
 
-You will find the answer by following this link : [88-musaics.org](http://88-musaics.org){:target="_blank"}
+The answer depends on the intensity of the reduction : following this link : [88-musaics.org](http://88-musaics.org){:target="_blank"}
 
 ## Regular instrument
 
